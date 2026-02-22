@@ -1,6 +1,8 @@
 <script>
     import Navbar from "$lib/components/navbar.svelte";
 
+    const currentYear = () => new Date().getFullYear();
+
 </script>
 <section class="relative h-screen w-full overflow-hidden bg-black text-white font-sans uppercase tracking-tighter p-6 md:p-10">
   
@@ -19,9 +21,9 @@
     </Navbar>
 
     <div class="flex justify-between items-center w-full">
-      <span class="text-sm font-bold">2023</span>
+      <span class="text-sm font-bold tracking-wide">Engineering week 2026</span>
       <p class="text-[10px] md:text-xs  leading-tight text-right tracking-widest opacity-80">
-        CAPTURE THE<br/>WORLD FROM A<br/>NEW PERSPECTIVE
+        Mirando al<br/>mundo desde<br/>otra perspectiva
       </p>
     </div>
 
@@ -29,7 +31,7 @@
       
       <div class="flex flex-col sm:flex-row justify-between items-start sm:items-baseline w-full border-b border-transparent">
         <h1 class="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tighter">
-          EXPERIENCE THE
+          INGENIERIA
         </h1>
         <button class="text-[10px] md:text-sm border-b border-white/40 pb-8 mt-2 sm:mt-0 tracking-widest hover:border-white whitespace-nowrap">
           CHOOSE A MODEL →
@@ -39,11 +41,11 @@
       <div class="flex flex-col-reverse sm:flex-row justify-between items-start sm:items-baseline w-full -mt-2 sm:-mt-4 md:-mt-6">
         <div class="mt-4 sm:mt-0">
           <p class="text-[10px] md:text-sm leading-tight tracking-[0.2em] font-bold opacity-70">
-            YOUR STORY,<br/>TOLD FROM ABOVE
+            LA HISTORIA DEL DISEÑO,<br/>PASO A PASO
           </p>
         </div>
         <h1 class="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tighter">
-          FUTURE OF FLIGHT
+          EN SISTEMAS
         </h1>
       </div>
       
