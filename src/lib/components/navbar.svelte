@@ -4,7 +4,7 @@
 </script>
 
 <header class="flex justify-between items-start  font-sans uppercase tracking-tighter">
-	<h2 class="text-lg font-bold italic tracking-normal">Drone-S</h2>
+	<h2 class="text-lg font-bold italic tracking-normal">Quetza - les</h2>
 	
 	<nav class="flex gap-6 sm:gap-10 text-xs tracking-widest">
 		<a href={resolve("/")} class="hover:opacity-50">MAIN</a>
