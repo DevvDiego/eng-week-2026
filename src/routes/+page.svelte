@@ -75,4 +75,48 @@
         </p>
     </div>
 
+
+        <div class="relative grid grid-cols-2 md:grid-cols-4 border-t border-black/10">
+
+        <div class="relative border-r border-b border-black/10 md:border-b-0 p-6 md:p-10 md:px-14 pt-10 md:pt-32 min-h-[300px] md:min-h-[400px]">
+            <div class="mb-6">
+                <img src="https://picsum.photos/800" 
+                class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Drone">
+            </div>
+            <span class="block text-xl md:text-2xl font-bold">0.1</span>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">
+                Cutting-edge<br/>Technology
+            </p>
+        </div>
+
+        <div class="relative border-b border-black/10 md:border-b-0 md:border-r p-6 md:p-10 md:px-14  pt-20 md:pt-16">
+            <span class="block text-xl md:text-2xl font-bold">0.2</span>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">
+                Dasdasd lasdsadnd<br/>Rasdsadadsle
+            </p>
+        </div>
+
+        <div class="relative border-r border-black/10 p-6 md:p-10 md:px-14  pt-16 md:pt-48">
+            <span class="block text-xl md:text-2xl font-bold">0.3</span>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">
+                asdasdsadsad<br/>asd
+            </p>
+        </div>
+
+        <div class="relative p-6 md:p-10 md:px-14 pt-10 md:pt-8 flex flex-col justify-between">
+            <div>
+                <img src="https://picsum.photos/800" class="w-32 md:w-44 rotate-3 
+                shadow-lg mb-6" alt="Drone View">
+            </div>
+            <div>
+                <span class="block text-xl md:text-2xl font-bold">0.4</span>
+                <p class="text-xs md:text-sm font-bold leading-tight uppercase">
+                    Innovative<br/>asdsadadssad
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
 </section>
