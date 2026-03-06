@@ -53,70 +53,69 @@
   </div>
 </section>
 
-<section class="relative h-screen w-full bg-white text-black font-sans uppercase tracking-wide p-6 md:p-10 md:px-14">
+<section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide p-6 md:p-10 md:px-14 overflow-hidden">
 
-    <div class="absolute inset-0 z-0 opacity-40">
-        <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-40">
-            <div class="absolute w-full h-px bg-neutral-950"></div>
-            <div class="absolute left-1/5 h-full w-px bg-neutral-950"></div>
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-[35%] left-0 w-full h-px bg-black/10"></div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 h-full px-6 md:px-14">
+            <div class="relative border-r border-black/10">
+                <div class="absolute top-[35%] right-0 -translate-y-1/2 translate-x-1/2 z-20">
+                    <div class="bg-white border border-black/30 rounded-full w-8 h-8 flex items-center justify-center">
+                        <div class="w-4 h-4 border border-black/40 rounded-full flex items-center justify-center relative">
+                            <div class="w-px h-full bg-black/40 absolute"></div>
+                            <div class="h-px w-full bg-black/40 absolute"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block"></div>
+            <div class="hidden md:block"></div>
+            <div class="hidden md:block"></div>
         </div>
     </div>
 
-    <div class="text-lg sm:text-xl text-center font-semibold mt-5 ">
-        MIRANDO AL MUNDO DESDE OTRA PERSPECTIVA: MÁS QUE UN PROYECTO, ES EL RESULTADO DE MILES DE ITERACIONES, 
-        PRUEBAS Y CÁLCULOS. DOCUMENTAMOS EL CAMINO RECORRIDO PARA DOMINAR LA TECNOLOGÍA AÉREA, 
-        CONSOLIDANDO LOS PILARES DE LA INGENIERÍA MODERNA EN UNA ESTRUCTURA CAPAZ DE DESAFIAR LA GRAVEDAD.    
+    <div class="relative z-10">
+        <div class="text-lg sm:text-xl text-center font-semibold mt-5 max-w-5xl mx-auto">
+            MIRANDO AL MUNDO DESDE OTRA PERSPECTIVA: MÁS QUE UN PROYECTO, ES EL RESULTADO DE MILES DE ITERACIONES, 
+            PRUEBAS Y CÁLCULOS. DOCUMENTAMOS EL CAMINO RECORRIDO PARA DOMINAR LA TECNOLOGÍA AÉREA, 
+            CONSOLIDANDO LOS PILARES DE LA INGENIERÍA MODERNA EN UNA ESTRUCTURA CAPAZ DE DESAFIAR LA GRAVEDAD.    
+        </div>
+
+        <div class="flex justify-between items-end w-full mt-24 mb-4">
+            <span></span>
+            <p class="text-[10px] md:text-xs leading-tight text-right tracking-widest opacity-80">
+                ¿QUE INGENIERÍA <br/> HAY DETRÁS <br/> DE TODO?
+            </p>
+        </div>
     </div>
 
-    <div class="flex justify-between items-center w-full mt-40">
-        <span></span>
-        <p class="text-[10px] md:text-xs leading-tight text-right tracking-widest opacity-80">
-            ¿Que ingenieria <br/> hay detras <br/> de todo?
-        </p>
-    </div>
-
-
-        <div class="relative grid grid-cols-2 md:grid-cols-4 border-t border-black/10">
-
-        <div class="relative border-r border-b border-black/10 md:border-b-0 p-6 md:p-10 md:px-14 pt-10 md:pt-32 min-h-[300px] md:min-h-[400px]">
+    <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 ">
+        <div class="relative border-r border-b border-black/10 md:border-b-0 p-10 md:pt-32 min-h-56 md:min-h-75">
             <div class="mb-6">
-                <img src="https://picsum.photos/800" 
-                class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Drone">
+                <img src="https://picsum.photos/800" class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Drone">
             </div>
             <span class="block text-xl md:text-2xl font-bold">0.1</span>
-            <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                Cutting-edge<br/>Technology
-            </p>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">Cutting-edge<br/>Technology</p>
         </div>
 
-        <div class="relative border-b border-black/10 md:border-b-0 md:border-r p-6 md:p-10 md:px-14  pt-20 md:pt-16">
+        <div class="relative border-b border-black/10 md:border-b-0 md:border-r p-10 md:pt-16">
             <span class="block text-xl md:text-2xl font-bold">0.2</span>
-            <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                Dasdasd lasdsadnd<br/>Rasdsadadsle
-            </p>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">Durable and<br/>Reliable</p>
         </div>
 
-        <div class="relative border-r border-black/10 p-6 md:p-10 md:px-14  pt-16 md:pt-48">
+        <div class="relative border-r border-black/10 p-10 pt-16 md:pt-48">
             <span class="block text-xl md:text-2xl font-bold">0.3</span>
-            <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                asdasdsadsad<br/>asd
-            </p>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">Competitive<br/>Pricing</p>
         </div>
 
-        <div class="relative p-6 md:p-10 md:px-14 pt-10 md:pt-8 flex flex-col justify-between">
-            <div>
-                <img src="https://picsum.photos/800" class="w-32 md:w-44 rotate-3 
-                shadow-lg mb-6" alt="Drone View">
+        <div class="relative border-l border-b border-black/10 md:border-b-0 p-10 md:pt-32 min-h-56 md:min-h-75">
+            <div class="mb-6">
+                <img src="https://picsum.photos/800" class="w-32 md:w-40 rotate-6 shadow-lg" alt="Drone">
             </div>
-            <div>
-                <span class="block text-xl md:text-2xl font-bold">0.4</span>
-                <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                    Innovative<br/>asdsadadssad
-                </p>
-            </div>
+            <span class="block text-xl md:text-2xl font-bold">0.1</span>
+            <p class="text-xs md:text-sm font-bold leading-tight uppercase">Cutting-edge<br/>Technology</p>
         </div>
-
     </div>
-
 
 </section>
