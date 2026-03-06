@@ -77,9 +77,9 @@
 
     <div class="relative z-10">
         <div class="text-lg sm:text-xl text-center font-semibold mt-5 max-w-5xl mx-auto">
-            MIRANDO AL MUNDO DESDE OTRA PERSPECTIVA: MÁS QUE UN PROYECTO, ES EL RESULTADO DE MILES DE ITERACIONES, 
-            PRUEBAS Y CÁLCULOS. DOCUMENTAMOS EL CAMINO RECORRIDO PARA DOMINAR LA TECNOLOGÍA AÉREA, 
-            CONSOLIDANDO LOS PILARES DE LA INGENIERÍA MODERNA EN UNA ESTRUCTURA CAPAZ DE DESAFIAR LA GRAVEDAD.    
+            MIRANDO AL MUNDO DESDE OTRA PERSPECTIVA: MÁS QUE UN PROYECTO, MILES DE ITERACIONES, 
+            PRUEBAS Y CÁLCULOS. CONSOLIDANDO LOS PILARES DE LA INGENIERÍA MODERNA 
+            EN UNA ESTRUCTURA CAPAZ DE DESAFIAR LA GRAVEDAD.    
         </div>
 
         <div class="flex justify-between items-end w-full mt-24 mb-4">
@@ -119,3 +119,4 @@
     </div>
 
 </section>
+
