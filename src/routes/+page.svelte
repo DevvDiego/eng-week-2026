@@ -120,3 +120,104 @@
 
 </section>
 
+
+<section class="relative min-h-screen w-full bg-zinc-900 text-white font-sans uppercase overflow-hidden p-6 md:p-10">
+  
+    <div class="absolute inset-0 z-0">
+        <img src="https://picsum.photos/id/1081/1200/1800" alt="Aerial View" class="h-full w-full object-cover opacity-60" />
+    </div>
+
+    <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full min-h-[80vh]">
+        
+        <div class="flex flex-col justify-center p-4 md:p-12">
+            <div class="max-w-md">
+                <h2 class="text-2xl md:text-3xl font-black tracking-tighter mb-4">
+                    Nuestra mision
+                </h2>
+                <p class="text-xs md:text-sm leading-relaxed tracking-widest opacity-90 font-medium">
+                    To empower individuals and businesses with cutting-edge drone technology, 
+                    providing exceptional products and services that exceed expectations.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative flex flex-col justify-around items-end p-4 md:p-12 space-y-12 md:space-y-0">
+
+            <div class="relative z-10 text-right group">
+                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">Adrenaline-pumping</p>
+                <h3 class="text-sm md:text-lg font-black tracking-tighter">Drone Racing</h3>
+            </div>
+
+            <div class="relative z-10 text-right max-w-50">
+                <h3 class="text-sm md:text-lg font-black tracking-tighter leading-none">
+                Push the limits of <br/> drone performance
+                </h3>
+            </div>
+
+            <div class="relative z-10 text-right">
+                <h3 class="text-sm md:text-lg font-black tracking-tighter">
+                Race to the <br/> finish line
+                </h3>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="relative z-10 mt-10 md:absolute md:bottom-12 md:left-12">
+        <div class="flex items-center gap-4">
+            <p class="text-[10px] md:text-xs font-bold tracking-widest hover:text-zinc-400 transition-colors">
+                JOIN THE DRONE <br/> RACING REVOLUTION
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!-- <section class="relative h-screen w-full overflow-hidden bg-black text-white font-sans uppercase tracking-tighter p-6 md:p-10">
+  
+  <div class="absolute inset-0 z-0 opacity-40">
+    <img src="https://picsum.photos/id/1/2500/1600" alt="BG" class="h-full w-full object-cover" />
+    <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-40">
+      <div class="absolute w-full h-px bg-white"></div>
+      <div class="absolute h-full w-px bg-white"></div>
+    </div>
+  </div>
+
+  <div class="relative z-10 h-full w-full flex flex-col justify-between">
+    
+    <Navbar>
+        
+    </Navbar>
+
+    <div class="flex justify-between items-center w-full">
+      <span class="text-sm font-bold tracking-wide">Engineering week 2026</span>
+      <p class="text-[10px] md:text-xs  leading-tight text-right tracking-widest opacity-80">
+        Mirando al<br/>mundo desde<br/>otra perspectiva
+      </p>
+    </div>
+
+    <div class="flex flex-col w-full mb-4">
+      
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-baseline w-full border-b border-transparent">
+        <h1 class="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tighter">
+          TRUE SYSTEMS
+        </h1>
+        <button class="text-[10px] md:text-sm border-b border-white/40 pb-8 mt-2 sm:mt-0 tracking-widest hover:border-white whitespace-nowrap">
+          CHOOSE A MODEL →
+        </button>
+      </div>
+
+      <div class="flex flex-col-reverse sm:flex-row justify-between items-start sm:items-baseline w-full -mt-2 sm:-mt-4 md:-mt-6">
+        <div class="mt-4 sm:mt-0">
+          <p class="text-[10px] md:text-sm leading-tight tracking-[0.2em] font-bold opacity-70">
+            LA HISTORIA DEL DISEÑO,<br/>PASO A PASO
+          </p>
+        </div>
+        <h1 class="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tighter">
+          ENGINEERING
+        </h1>
+      </div>
+      
+    </div>
+  </div>
+</section> -->
