@@ -228,7 +228,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-24 border-t border-black/10 pt-8 w-full max-w-2xl mx-auto">
             <div class="text-center sm:text-left">
                 <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Modo</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">Interactive</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">Static</p>
             </div>
             <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
                 <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Escala</p>
