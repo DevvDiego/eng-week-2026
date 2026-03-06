@@ -84,8 +84,8 @@
 
         <div class="flex justify-between items-end w-full mt-24 mb-4">
             <span></span>
-            <p class="text-[10px] md:text-xs leading-tight text-right tracking-widest opacity-80">
-                ¿QUE INGENIERÍA <br/> HAY DETRÁS <br/> DE TODO?
+            <p class="text-xs md:text-sm font-bold leading-tight text-right tracking-widest opacity-80">
+                ¿QUE INGENIERÍA HAY <br/> DETRÁS DE TODO?
             </p>
         </div>
     </div>
