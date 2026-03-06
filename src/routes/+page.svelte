@@ -212,11 +212,14 @@
         </div>
 
         <div class="relative inline-block group mb-16 md:mb-24">
-            <div class="absolute -top-2 -left-2 w-2 h-2 border-t border-l border-black group-hover:scale-150 transition-transform"></div>
-            <div class="absolute -bottom-2 -right-2 w-2 h-2 border-b border-r border-black group-hover:scale-150 transition-transform"></div>
+            <div class="absolute -top-1 -left-1 w-3 h-3 border-t-2 border-l-2 border-black z-20 transition-all duration-300 group-hover:-top-2 group-hover:-left-2"></div>
+            <div class="absolute -bottom-1 -right-1 w-3 h-3 border-b-2 border-r-2 border-black z-20 transition-all duration-300 group-hover:-bottom-2 group-hover:-right-2"></div>
             
-            <a href={resolve("/viewer")} class="relative overflow-hidden border border-black/10 px-10 py-4 md:px-12 md:py-5 text-xs md:text-sm font-black tracking-[0.2em] transition-all duration-300 group-hover:bg-black group-hover:text-white">
-                <span class="relative z-10 flex items-center gap-3">
+            <a href={resolve("/viewer")} class="relative flex items-center justify-center min-w-60 md:min-w-70 overflow-hidden border border-black/20 px-10 py-5 md:px-16 md:py-6 text-xs md:text-sm font-black tracking-[0.3em] transition-all duration-300 bg-transparent text-black hover:text-white">
+                
+                <div class="absolute inset-0 bg-black translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
+                
+                <span class="relative z-10">
                     VER MODELO 3D 
                 </span>
             </a>
