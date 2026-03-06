@@ -189,3 +189,68 @@
     </div>
 
 </section>
+
+
+<footer class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 pt-10 pb-20">
+        
+        <div class="flex items-start md:pl-8 mb-10 md:mb-0">
+            <h2 class="text-4xl md:text-5xl font-black tracking-tighter">
+                FAQ
+            </h2>
+        </div>
+
+        <div class="space-y-0.5 border-l border-white/20 md:border-l-0">
+        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
+            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                Why buy drones from us?
+            </span>
+            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
+        </a>
+        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
+            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                What can I use a drone for?
+            </span>
+            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
+        </a>
+        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
+            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                How do I charge a drone battery?
+            </span>
+            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
+        </a>
+        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
+            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                Do I need a license to fly a drone?
+            </span>
+            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
+        </a>
+        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
+            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                What type of drone is right for me?
+            </span>
+            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
+        </a>
+        </div>
+    </div>
+
+    <div class="border-t border-white/20 pt-10 pb-4">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+        
+        <div class="text-sm md:text-base font-extrabold tracking-[0.3em]">
+            Drone
+        </div>
+
+        <nav class="flex flex-wrap gap-x-6 gap-y-2 text-[10px] md:text-xs font-bold tracking-[0.2em] opacity-80">
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Main</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">About</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Store</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">FAQ</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Contact</a>
+        </nav>
+        
+        </div>
+    </div>
+
+</footer>
