@@ -1,4 +1,5 @@
 <script>
+    import { resolve } from "$app/paths";
     import Navbar from "$lib/components/navbar.svelte";
 
     const currentYear = () => new Date().getFullYear();
@@ -214,11 +215,11 @@
             <div class="absolute -top-2 -left-2 w-2 h-2 border-t border-l border-black group-hover:scale-150 transition-transform"></div>
             <div class="absolute -bottom-2 -right-2 w-2 h-2 border-b border-r border-black group-hover:scale-150 transition-transform"></div>
             
-            <button class="relative overflow-hidden border border-black/10 px-10 py-4 md:px-12 md:py-5 text-xs md:text-sm font-black tracking-[0.2em] transition-all duration-300 group-hover:bg-black group-hover:text-white">
+            <a href={resolve("/viewer")} class="relative overflow-hidden border border-black/10 px-10 py-4 md:px-12 md:py-5 text-xs md:text-sm font-black tracking-[0.2em] transition-all duration-300 group-hover:bg-black group-hover:text-white">
                 <span class="relative z-10 flex items-center gap-3">
                     VER MODELO 3D 
                 </span>
-            </button>
+            </a>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-24 border-t border-black/10 pt-8 w-full max-w-2xl mx-auto">
