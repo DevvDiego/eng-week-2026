@@ -191,6 +191,55 @@
 </section>
 
 
+<section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide p-6 md:p-10 md:px-14 overflow-hidden flex flex-col justify-center items-center">
+
+    <div class="absolute inset-0 pointer-events-none opacity-[0.03]" 
+         style="background-image: radial-gradient(#000 1px, transparent 1px); background-size: 30px 30px;">
+    </div>
+    
+    <div class="absolute top-6 left-6 md:top-10 md:left-10 w-4 h-4 border-t border-l border-black/20"></div>
+    <div class="absolute top-6 right-6 md:top-10 md:right-10 w-4 h-4 border-t border-r border-black/20"></div>
+    <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 w-4 h-4 border-b border-l border-black/20"></div>
+    <div class="absolute bottom-6 right-6 md:bottom-10 md:right-10 w-4 h-4 border-b border-r border-black/20"></div>
+
+    <div class="relative z-10 text-center w-full max-w-4xl">
+        <div class="mb-8 md:mb-16">
+            <span class="text-[8px] md:text-[10px] font-black tracking-[0.5em] text-black/40 block mb-3">Model Preview Engine</span>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-none italic">
+                MÍRALO CON TUS <br class="hidden sm:block"/> PROPIOS OJOS
+            </h2>
+        </div>
+
+        <div class="relative inline-block group mb-16 md:mb-24">
+            <div class="absolute -top-2 -left-2 w-2 h-2 border-t border-l border-black group-hover:scale-150 transition-transform"></div>
+            <div class="absolute -bottom-2 -right-2 w-2 h-2 border-b border-r border-black group-hover:scale-150 transition-transform"></div>
+            
+            <button class="relative overflow-hidden border border-black/10 px-10 py-4 md:px-12 md:py-5 text-xs md:text-sm font-black tracking-[0.2em] transition-all duration-300 group-hover:bg-black group-hover:text-white">
+                <span class="relative z-10 flex items-center gap-3">
+                    VER MODELO 3D 
+                </span>
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-24 border-t border-black/10 pt-8 w-full max-w-2xl mx-auto">
+            <div class="text-center sm:text-left">
+                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Modo</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">Interactive</p>
+            </div>
+            <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
+                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Escala</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">Dinamica</p>
+            </div>
+            <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
+                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Perspectiva</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">360° Orbit</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
 <footer class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
     
     <div class="grid grid-cols-1 md:grid-cols-2 pt-10 pb-20">
