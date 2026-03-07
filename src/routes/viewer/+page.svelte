@@ -38,7 +38,7 @@
 
     </nav>
 
-    <section class="relative grow h-full bg-[#1a1a1a]">
+    <section class="relative grow h-8/12 bg-[#1a1a1a]">
         <div class="absolute inset-0 w-full h-full">
             <Sketch {bg} {direction} />
         </div>
@@ -51,9 +51,9 @@
 
 <style>
     /* Aseguramos que el body no tenga scroll para que el layout se sienta como una App */
-    :global(body) {
+    /* :global(body) {
         margin: 0;
         padding: 0;
         overflow: hidden;
-    }
+    } */
 </style>
