@@ -15,40 +15,42 @@
             <p class="text-[8px] sm:text-[10px] font-mono opacity-50">Powered by: Sveltekit + P5.js</p>
         </div>
 
-        <div class="grid grid-cols-3 gap-2 mx-auto select-none">
-            <button 
-                onpointerdown={() => direction = "up"}
-                onpointerup={() => direction = null}
-                class="col-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
-            >▲</button>
-            <button 
-                onpointerdown={() => direction = "left"}
-                onpointerup={() => direction = null}
-                class="col-start-1 row-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
-            >◀</button>
-            <button 
-                onpointerdown={() => direction = "right"}
-                onpointerup={() => direction = null}
-                class="col-start-3 row-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
-            >▶</button>
-            <button 
-                onpointerdown={() => direction = "down"}
-                onpointerup={() => direction = null}
-                class="col-start-2 row-start-3 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
-            >▼</button>
-        </div>
+        <div class="flex flex-row md:flex-col gap-3 md:gap-6 justify-center items-center">
+            <div class="grid grid-cols-3 gap-2 mx-auto select-none">
+                <button 
+                    onpointerdown={() => direction = "up"}
+                    onpointerup={() => direction = null}
+                    class="col-start-2 w-12 h-12 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
+                >▲</button>
+                <button 
+                    onpointerdown={() => direction = "left"}
+                    onpointerup={() => direction = null}
+                    class="col-start-1 row-start-2 w-12 h-12 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
+                >◀</button>
+                <button 
+                    onpointerdown={() => direction = "right"}
+                    onpointerup={() => direction = null}
+                    class="col-start-3 row-start-2 w-12 h-12 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
+                >▶</button>
+                <button 
+                    onpointerdown={() => direction = "down"}
+                    onpointerup={() => direction = null}
+                    class="col-start-2 row-start-3 w-12 h-12 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
+                >▼</button>
+            </div>
 
-        <div class="flex flex-row gap-2 mx-auto select-none">
-            <button 
-                onpointerdown={() => zoom = "in"}
-                onpointerup={() => zoom = null}
-                class=" w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
-            >+</button>
-            <button 
-                onpointerdown={() => zoom = "out"}
-                onpointerup={() => zoom = null}
-                class="w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
-            >-</button>
+            <div class="flex flex-row gap-2 mx-auto select-none">
+                <button 
+                    onpointerdown={() => zoom = "in"}
+                    onpointerup={() => zoom = null}
+                    class="w-10 h-10 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
+                >+</button>
+                <button 
+                    onpointerdown={() => zoom = "out"}
+                    onpointerup={() => zoom = null}
+                    class="w-10 h-10 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
+                >-</button>
+            </div>
         </div>
 
 
