@@ -13,7 +13,7 @@
             <p class="text-[8px] sm:text-[10px] font-mono opacity-50">Powered by: Sveltekit + P5.js</p>
         </div>
 
-        <div class="grid grid-cols-3 gap-2 mx-auto">
+        <div class="grid grid-cols-3 gap-2 mx-auto select-none">
             <button 
                 onpointerdown={() => direction = "up"}
                 onpointerup={() => direction = "null"}
