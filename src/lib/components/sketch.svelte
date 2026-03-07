@@ -2,7 +2,7 @@
     import type p5 from 'p5';
     import { onMount, onDestroy } from 'svelte';
 
-    let { bg = "#262626", color = "#ffff", class: klass = ""} = $props();
+    let { bg = "#262626", class: klass = ""} = $props();
 
     let sketchContainer: HTMLDivElement;
     let p5Instance: p5;
@@ -26,8 +26,10 @@
 
                     drone = await p.loadModel("/dronn.obj", "obj", true);
                 }catch(err) {
-                    if(err instanceof Error)
-                    console.log("Ocurrio un error al cargar el modelo 3D: " + err.message)
+                    if(err instanceof Error){
+                        console.log("Ocurrio un error al cargar el modelo 3D: " + err.message)
+                    }
+                    
                 }
             };
 
@@ -59,7 +61,6 @@
                 if (drone) {
                     p.push();
                     p.noStroke(); // Prevents wireframe-style lines
-                    p.fill(color);
                     p.translate(100, 0, 0);
                     p.rotate(180);
                     p.model(drone);
