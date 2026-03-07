@@ -2,7 +2,17 @@
     import type p5 from 'p5';
     import { onMount, onDestroy } from 'svelte';
 
-    let { bg = "#262626", direction = null, class: klass = ""} = $props();
+    interface Props{
+        bg: string,
+        direction: null|"up"|"down"|"left"|"right",
+        class: string
+    }
+
+    let { 
+        bg = "#262626", 
+        direction = null,
+        class: klass = ""
+    }: Props = $props();
 
     let sketchContainer: HTMLDivElement;
     let p5Instance: p5;
@@ -76,7 +86,7 @@
                     p.rotateX(rotX);
                     p.rotateY(rotY);
                     p.rotate(180); // enderezar
-                    
+
                     p.model(drone);
                     p.pop();
 

@@ -1,9 +1,9 @@
 <script lang="ts">
     import { resolve } from '$app/paths';
-  import Sketch from '$lib/components/sketch.svelte';
+    import Sketch from '$lib/components/sketch.svelte';
 
-  let bg = "#262626";
-  let direction: null|String = $state(null);
+    let bg = "#262626";
+    let direction: null|"up"|"down"|"left"|"right" = $state(null);
 </script>
 
 <main class="flex flex-col-reverse md:flex-row w-full h-screen bg-[#262626] text-white overflow-hidden">
@@ -17,22 +17,22 @@
         <div class="grid grid-cols-3 gap-2 mx-auto select-none">
             <button 
                 onpointerdown={() => direction = "up"}
-                onpointerup={() => direction = "null"}
+                onpointerup={() => direction = null}
                 class="col-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
             >▲</button>
             <button 
                 onpointerdown={() => direction = "left"}
-                onpointerup={() => direction = "null"}
+                onpointerup={() => direction = null}
                 class="col-start-1 row-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
             >◀</button>
             <button 
                 onpointerdown={() => direction = "right"}
-                onpointerup={() => direction = "null"}
+                onpointerup={() => direction = null}
                 class="col-start-3 row-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
             >▶</button>
             <button 
                 onpointerdown={() => direction = "down"}
-                onpointerup={() => direction = "null"}
+                onpointerup={() => direction = null}
                 class="col-start-2 row-start-3 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
             >▼</button>
         </div>
@@ -54,7 +54,7 @@
 
     <section class="relative grow h-full bg-[#1a1a1a]">
         <div class="absolute inset-0 w-full h-full">
-            <Sketch {bg} {direction} />
+            <!-- <Sketch {bg} {direction} /> -->
         </div>
         
         <div class="absolute bottom-6 right-6 pointer-events-none border-r-2 border-b-2 border-blue-500/30 w-12 h-12"></div>
