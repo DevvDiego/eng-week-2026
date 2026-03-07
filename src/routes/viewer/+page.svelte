@@ -1,17 +1,59 @@
-<script>
+<script lang="ts">
   import Sketch from '$lib/components/sketch.svelte';
+
   let bg = "#262626";
-  let color = '#00d8ff';
+  let direction: null|String = $state(null);
 </script>
 
-<h1>3D model viewer test</h1>
+<main class="flex flex-col md:flex-row w-full h-screen bg-[#1a1a1a] text-white overflow-hidden">
+    
+    <nav class="w-full md:w-80 p-6 bg-[#262626] border-b md:border-b-0 md:border-r border-white/10 flex flex-col gap-8 z-20">
+        <div>
+            <h1 class="text-xl font-bold font-mono tracking-tighter text-blue-400">DRONE VIEWER v1.0</h1>
+            <p class="text-[10px] font-mono opacity-50">Powered by: Sveltekit + P5.js</p>
+        </div>
 
-<div class="controls">
-  <h1>background</h1>
-  <input type="color" bind:value={bg} />
-  
-  <h1>fill color</h1>
-  <input type="color" bind:value={color} />
-</div>
+        <div class="grid grid-cols-3 gap-2 mx-auto">
+            <button 
+                onpointerdown={() => direction = "up"}
+                onpointerup={() => direction = "null"}
+                class="col-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
+            >▲</button>
+            <button 
+                onpointerdown={() => direction = "left"}
+                onpointerup={() => direction = "null"}
+                class="col-start-1 row-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
+            >◀</button>
+            <button 
+                onpointerdown={() => direction = "right"}
+                onpointerup={() => direction = "null"}
+                class="col-start-3 row-start-2 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
+            >▶</button>
+            <button 
+                onpointerdown={() => direction = "down"}
+                onpointerup={() => direction = "null"}
+                class="col-start-2 row-start-3 w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
+            >▼</button>
+        </div>
 
-<Sketch {bg} {color} />
+    </nav>
+
+    <section class="relative grow h-full bg-[#1a1a1a]">
+        <div class="absolute inset-0 w-full h-full">
+            <Sketch {bg} {direction} />
+        </div>
+        
+        <div class="absolute bottom-6 right-6 pointer-events-none border-r-2 border-b-2 border-blue-500/30 w-12 h-12"></div>
+        <div class="absolute top-6 left-6 pointer-events-none border-l-2 border-t-2 border-blue-500/30 w-12 h-12"></div>
+    </section>
+
+</main>
+
+<style>
+    /* Aseguramos que el body no tenga scroll para que el layout se sienta como una App */
+    :global(body) {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+</style>
