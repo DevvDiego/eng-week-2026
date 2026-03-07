@@ -38,7 +38,7 @@
 
     </nav>
 
-    <section class="relative grow h-8/12 bg-[#1a1a1a]">
+    <section class="relative grow h-full bg-[#1a1a1a]">
         <div class="absolute inset-0 w-full h-full">
             <Sketch {bg} {direction} />
         </div>
