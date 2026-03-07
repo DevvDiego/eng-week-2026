@@ -1,6 +1,7 @@
 node_modules
 *.obj
 *.stl
+*.mtl
 
 # Output
 .output
