@@ -13,17 +13,29 @@
         const P5Class = p5Module.default;
 
         const sketch = (p: p5) => {
-            let drone: any; // to store the loaded 3d drone 
+            let drone: any;
 
             p.setup = async () => {
-                
-                p.createCanvas(710, 400, p.WEBGL).parent(sketchContainer);
-                p.angleMode(p.DEGREES);
-                p.normalMaterial();
+                try{
+                    const width = sketchContainer.clientWidth;
+                    const height = sketchContainer.clientHeight;
+                    
+                    p.createCanvas(width, height, p.WEBGL).parent(sketchContainer);
+                    p.angleMode(p.DEGREES);
+                    p.normalMaterial();
 
-                //path loads from static folder
-                drone = await p.loadModel("/dronn.obj", "obj", true );
-                //try catch here?
+                    drone = await p.loadModel("/dronn.obj", "obj", true);
+                }catch(err) {
+                    if(err instanceof Error)
+                    console.log("Ocurrio un error al cargar el modelo 3D: " + err.message)
+                }
+            };
+
+            //if window size changes, resize
+            p.windowResized = () => {
+                const width = sketchContainer.clientWidth;
+                const height = sketchContainer.clientHeight;
+                p.resizeCanvas(width, height);
             };
 
             p.draw = () => {
