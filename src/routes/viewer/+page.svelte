@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { resolve } from '$app/paths';
   import Sketch from '$lib/components/sketch.svelte';
 
   let bg = "#262626";
@@ -36,6 +37,19 @@
             >▼</button>
         </div>
 
+        <hr class="border-white/10" />
+
+        <div class="flex items-center justify-center">
+            <a 
+                href={resolve("/")} 
+                class="w-full py-3 px-4 
+                border border-white/20 rounded-lg 
+                text-white font-mono text-sm hover:bg-white/20 hover:text-black/20 transition-all active:scale-95"
+            >
+                Regresar al menu
+            </a>
+        </div>
+        
     </nav>
 
     <section class="relative grow h-full bg-[#1a1a1a]">
