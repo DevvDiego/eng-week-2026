@@ -4,6 +4,7 @@
 
     let bg = "#262626";
     let direction: null|"up"|"down"|"left"|"right" = $state(null);
+    let zoom: null|"in"|"out" = $state(null);
 </script>
 
 <main class="flex flex-col-reverse md:flex-row w-full h-screen bg-[#262626] text-white overflow-hidden">
@@ -37,6 +38,21 @@
             >▼</button>
         </div>
 
+        <div class="flex flex-row gap-2 mx-auto select-none">
+            <button 
+                onpointerdown={() => zoom = "in"}
+                onpointerup={() => zoom = null}
+                class=" w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
+            >+</button>
+            <button 
+                onpointerdown={() => zoom = "out"}
+                onpointerup={() => zoom = null}
+                class="w-14 h-14 bg-white/5 border border-white/10 rounded-xl"
+            >-</button>
+        </div>
+
+
+
         <hr class="border-white/10" />
 
         <div class="flex items-center justify-center">
@@ -54,7 +70,7 @@
 
     <section class="relative grow h-full bg-[#1a1a1a]">
         <div class="absolute inset-0 w-full h-full">
-            <!-- <Sketch {bg} {direction} /> -->
+            <Sketch {bg} {direction} {zoom} />
         </div>
         
         <div class="absolute bottom-6 right-6 pointer-events-none border-r-2 border-b-2 border-blue-500/30 w-12 h-12"></div>

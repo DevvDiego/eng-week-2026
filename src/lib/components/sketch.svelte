@@ -5,19 +5,22 @@
     interface Props{
         bg: string,
         direction: null|"up"|"down"|"left"|"right",
-        class: string
+        zoom: null|"in"|"out",
+        class?: string
     }
 
     let { 
         bg = "#262626", 
-        direction = null,
+        direction = null, 
+        zoom = null, 
         class: klass = ""
     }: Props = $props();
 
     let sketchContainer: HTMLDivElement;
     let p5Instance: p5;
     let isFirstFrameReady = $state(false);
-
+    
+    let zoomLevel = $state(1.0); //1.0 is the original size
     let rotX = 0;
     let rotY = 0;
 
@@ -75,6 +78,10 @@
                 if (direction === 'left') rotY -= 2;
                 if (direction === 'right') rotY += 2;
 
+                //Limit zoom to 3x the original scale in both ways
+                if( zoom === "in" && zoomLevel < 5.0 ) zoomLevel += 0.1
+                if( zoom === "out" && zoomLevel > 1.0) zoomLevel -= 0.1
+
                 p.orbitControl(2, 2, 2);
 
                 if (drone) {
@@ -86,6 +93,8 @@
                     p.rotateX(rotX);
                     p.rotateY(rotY);
                     p.rotate(180); // enderezar
+
+                    p.scale(zoomLevel);
 
                     p.model(drone);
                     p.pop();
