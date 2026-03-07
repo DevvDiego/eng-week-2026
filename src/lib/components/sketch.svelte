@@ -2,11 +2,14 @@
     import type p5 from 'p5';
     import { onMount, onDestroy } from 'svelte';
 
-    let { bg = "#262626", class: klass = ""} = $props();
+    let { bg = "#262626", direction = null, class: klass = ""} = $props();
 
     let sketchContainer: HTMLDivElement;
     let p5Instance: p5;
     let isFirstFrameReady = $state(false);
+
+    let rotX = 0;
+    let rotY = 0;
 
     onMount(async () => {
         const p5Module = await import('p5');
@@ -42,7 +45,7 @@
 
             p.draw = () => {
                 p.background(bg);
-                
+
                 // 1. Ambient Light: Provides base visibility to every face regardless of angle.
                 // Increase this to make sure there are no "pure black" spots.
                 p.ambientLight(10); 
@@ -56,22 +59,37 @@
                 p.directionalLight(255, 255, 255, 0, 0, 1);  // From Front
                 p.directionalLight(255, 255, 255, 0, 0, -1); // From Back
 
+                // p5 lee la prop 'direction' en cada frame
+                if (direction === 'up') rotX -= 2;
+                if (direction === 'down') rotX += 2;
+                if (direction === 'left') rotY -= 2;
+                if (direction === 'right') rotY += 2;
+
                 p.orbitControl(2, 2, 2);
 
                 if (drone) {
                     p.push();
                     p.noStroke(); // Prevents wireframe-style lines
-                    p.translate(100, 0, 0);
-                    p.rotate(180);
+                    p.translate(0, 0, 0); // alinear al medio
+                    
+                    // Aplicamos la rotacion manual
+                    p.rotateX(rotX);
+                    p.rotateY(rotY);
+                    p.rotate(180); // enderezar
+                    
                     p.model(drone);
                     p.pop();
 
-                    if(!isFirstFrameReady){ isFirstFrameReady = true; }
+                    if(!isFirstFrameReady) {
+                        requestAnimationFrame(() => isFirstFrameReady = true);
+                    }
                 }
-            }
+            };
 
+            p.windowResized = () => {
+                p.resizeCanvas(sketchContainer.clientWidth, sketchContainer.clientHeight);
+            };
         };
-        
 
         p5Instance = new P5Class(sketch);
     });
