@@ -5,12 +5,12 @@
   let direction: null|String = $state(null);
 </script>
 
-<main class="flex flex-col md:flex-row w-full h-screen bg-[#1a1a1a] text-white overflow-hidden">
+<main class="flex flex-col-reverse md:flex-row w-full h-screen bg-[#262626] text-white overflow-hidden">
     
-    <nav class="w-full md:w-80 p-6 bg-[#262626] border-b md:border-b-0 md:border-r border-white/10 flex flex-col gap-8 z-20">
+    <nav class="text-center w-full md:w-80 p-6 bg-[#262626] border-b md:border-b-0 md:border-r border-white/10 flex flex-col gap-8 z-20">
         <div>
-            <h1 class="text-xl font-bold font-mono tracking-tighter text-blue-400">DRONE VIEWER v1.0</h1>
-            <p class="text-[10px] font-mono opacity-50">Powered by: Sveltekit + P5.js</p>
+            <h1 class="text-xl font-bold font-mono tracking-tighter text-blue-400">DRONE VIEWER</h1>
+            <p class="text-[8px] sm:text-[10px] font-mono opacity-50">Powered by: Sveltekit + P5.js</p>
         </div>
 
         <div class="grid grid-cols-3 gap-2 mx-auto">
