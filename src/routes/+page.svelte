@@ -22,9 +22,9 @@
         </Navbar>
 
         <div class="flex justify-between items-center w-full">
-            <span class="text-sm font-bold tracking-wide">Engineering week 2026</span>
+            <span class="text-sm font-bold tracking-wide">PROYECTO INTEGRADOR 2026</span>
             <p class="text-[10px] md:text-xs  leading-tight text-right tracking-widest opacity-80">
-                Mirando al<br/>mundo desde<br/>otra perspectiva
+                SISTEMAS<br/>ELECTRÓNICA<br/>Y DISEÑO
             </p>
         </div>
 
@@ -32,21 +32,21 @@
         
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-baseline w-full border-b border-transparent">
             <h1 class="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tighter">
-                TRUE SYSTEMS
+                DE LA IDEA
             </h1>
             <button class="text-[10px] md:text-sm border-b border-white/40 pb-8 mt-2 sm:mt-0 tracking-widest hover:border-white whitespace-nowrap">
-                CHOOSE A MODEL →
+                CONOCE EL PROCESO →
             </button>
         </div>
 
         <div class="flex flex-col-reverse sm:flex-row justify-between items-start sm:items-baseline w-full -mt-2 sm:-mt-4 md:-mt-6">
             <div class="mt-4 sm:mt-0">
                 <p class="text-[10px] md:text-sm leading-tight tracking-[0.2em] font-bold opacity-70">
-                    LA HISTORIA DEL DISEÑO,<br/>PASO A PASO
+                    AÑOS DE APRENDIZAJE<br/>MATERIALIZADOS
                 </p>
             </div>
             <h1 class="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-none tracking-tighter">
-                ENGINEERING
+                AL PRODUCTO
             </h1>
         </div>
         
@@ -60,7 +60,8 @@
         <div class="absolute top-[35%] left-0 w-full h-px bg-black/10"></div>
         
         <div class="grid grid-cols-2 md:grid-cols-4 h-full px-6 md:px-14">
-            <div class="relative border-r border-black/10">
+            <div class="relative border-r border-black/10"> <!-- Linea que llega hasta el final -->
+                <!-- Circulo del puntero -->
                 <div class="absolute top-[35%] right-0 -translate-y-1/2 translate-x-1/2 z-20">
                     <div class="bg-white border border-black/30 rounded-full w-8 h-8 flex items-center justify-center">
                         <div class="w-4 h-4 border border-black/40 rounded-full flex items-center justify-center relative">
@@ -78,15 +79,15 @@
 
     <div class="relative z-10">
         <div class="text-lg sm:text-xl text-center font-semibold mt-5 max-w-5xl mx-auto">
-            MIRANDO AL MUNDO DESDE OTRA PERSPECTIVA: MÁS QUE UN PROYECTO, MILES DE ITERACIONES, 
-            PRUEBAS Y CÁLCULOS. CONSOLIDANDO LOS PILARES DE LA INGENIERÍA MODERNA 
-            EN UNA ESTRUCTURA CAPAZ DE DESAFIAR LA GRAVEDAD.    
+            ESTE PROYECTO RECORRE LAS ETAPAS CLAVE DE LA CARRERA: DESDE EL DISEÑO ELECTRÓNICO Y 
+            LA PROGRAMACIÓN DE MICROCONTROLADORES, HASTA LA DOCUMENTACIÓN VISUAL Y FOTOGRÁFICA. 
+            CADA COMPONENTE REFLEJA HORAS DE LABORATORIO, AJUSTES Y VALIDACIÓN.
         </div>
 
         <div class="flex justify-between items-end w-full mt-24 mb-4">
             <span></span>
             <p class="text-xs md:text-sm font-bold leading-tight text-right tracking-widest opacity-80">
-                ¿QUE INGENIERÍA HAY <br/> DETRÁS DE TODO?
+                ETAPAS DEL <br/> DESARROLLO
             </p>
         </div>
     </div>
@@ -94,13 +95,13 @@
     <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 ">
         <div class="relative border-r border-b border-black/10 md:border-b-0 p-10 md:pt-32 min-h-56 md:min-h-75">
             <div class="mb-6">
-                <img src="https://picsum.photos/800" class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Drone">
+                <img src="https://picsum.photos/800" class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Diseño electrónico">
             </div>
             <span class="block text-xl md:text-2xl font-bold">
                 0.1
             </span>
             <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                Cutting-edge<br/>Technology
+                DISEÑO Y<br/>SIMULACIÓN
             </p>
         </div>
 
@@ -110,7 +111,7 @@
 
             </span>
             <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                Durable and<br/>Reliable
+                PROTOTIPADO<br/>ELECTRÓNICO
             </p>
         </div>
 
@@ -119,19 +120,19 @@
                 0.3
             </span>
             <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                Competitive<br/>Pricing
+                FOTOGRAFÍA<br/>TÉCNICA
             </p>
         </div>
 
         <div class="relative border-l border-b border-black/10 md:border-b-0 p-10 md:pt-32 min-h-56 md:min-h-75">
             <div class="mb-6">
-                <img src="https://picsum.photos/800" class="w-32 md:w-40 rotate-6 shadow-lg" alt="Drone">
+                <img src="https://picsum.photos/800" class="w-32 md:w-40 rotate-6 shadow-lg" alt="Pruebas">
             </div>
             <span class="block text-xl md:text-2xl font-bold">
-                0.1
+                0.4
             </span>
             <p class="text-xs md:text-sm font-bold leading-tight uppercase">
-                Cutting-edge<br/>Technology
+                VALIDACIÓN Y<br/>RESULTADOS
             </p>
         </div>
     </div>
@@ -142,7 +143,7 @@
 <section class="relative min-h-screen w-full bg-zinc-900 text-white font-sans uppercase overflow-hidden p-6 md:p-10">
   
     <div class="absolute inset-0 z-0">
-        <img src="https://picsum.photos/id/1081/1200/1800" alt="Aerial View" class="h-full w-full object-cover opacity-60" />
+        <img src="https://picsum.photos/id/1081/1200/1800" alt="Laboratorio" class="h-full w-full object-cover opacity-60" />
     </div>
 
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full min-h-[80vh]">
@@ -150,11 +151,13 @@
         <div class="flex flex-col justify-center p-4 md:p-12">
             <div class="max-w-md">
                 <h2 class="text-2xl md:text-3xl font-black tracking-tighter mb-4">
-                    Nuestra mision
+                    El recorrido
                 </h2>
                 <p class="text-xs md:text-sm leading-relaxed tracking-widest opacity-90 font-medium">
-                    To empower individuals and businesses with cutting-edge drone technology, 
-                    providing exceptional products and services that exceed expectations.
+                    Este proyecto nace de la necesidad de integrar los conocimientos adquiridos 
+                    durante la carrera: electrónica analógica y digital, control, procesamiento 
+                    de señales, y también la comunicación visual de resultados a través de la 
+                    fotografía y el diseño.
                 </p>
             </div>
         </div>
@@ -162,19 +165,19 @@
         <div class="relative flex flex-col justify-around items-center sm:items-end p-4 md:p-12 space-y-12 md:space-y-0">
 
             <div class="relative z-10 text-center sm:text-right group">
-                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">Adrenaline-pumping</p>
-                <h3 class="text-sm md:text-lg font-black tracking-tighter">Drone Racing</h3>
+                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">Fase 1</p>
+                <h3 class="text-sm md:text-lg font-black tracking-tighter">Concepto y Diseño</h3>
             </div>
 
             <div class="relative z-10 text-right max-w-50">
                 <h3 class="text-sm md:text-lg font-black tracking-tighter leading-none">
-                Push the limits of <br/> drone performance
+                Desarrollo <br/> en Laboratorio
                 </h3>
             </div>
 
             <div class="relative z-10 text-right">
                 <h3 class="text-sm md:text-lg font-black tracking-tighter">
-                Race to the <br/> finish line
+                Documentación <br/> y Fotografía
                 </h3>
             </div>
 
@@ -184,7 +187,7 @@
     <div class="relative z-10 mt-10 p-6 md:p-10 md:absolute md:bottom-12 md:left-12">
         <div class="flex items-center justify-center sm:justify-start gap-4">
             <p class="text-[10px] md:text-xs font-bold tracking-widest hover:text-zinc-400 transition-colors">
-                JOIN THE DRONE <br/> RACING REVOLUTION
+                MEMORIA TÉCNICA Y <br/> GALERÍA DE IMÁGENES
             </p>
         </div>
     </div>
@@ -205,9 +208,9 @@
 
     <div class="relative z-10 text-center w-full max-w-4xl">
         <div class="mb-8 md:mb-16">
-            <span class="text-[8px] md:text-[10px] font-black tracking-[0.5em] text-black/40 block mb-3">Model Preview Engine</span>
+            <span class="text-[8px] md:text-[10px] font-black tracking-[0.5em] text-black/40 block mb-3">Modelado y Representación</span>
             <h2 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-none italic">
-                MÍRALO CON TUS <br class="hidden sm:block"/> PROPIOS OJOS
+                EXPLORA LOS <br class="hidden sm:block"/> DISEÑOS EN 3D
             </h2>
         </div>
 
@@ -220,23 +223,23 @@
                 <div class="absolute inset-0 bg-black translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
                 
                 <span class="relative z-10">
-                    VER MODELO 3D 
+                    VER MODELOS 3D
                 </span>
             </a>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-24 border-t border-black/10 pt-8 w-full max-w-2xl mx-auto">
             <div class="text-center sm:text-left">
-                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Modo</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">Static</p>
+                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Electrónica</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">Integrada</p>
             </div>
             <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
-                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Escala</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">Dinamica</p>
+                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Mecánica</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">Prototipada</p>
             </div>
             <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
-                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Perspectiva</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">360° Orbit</p>
+                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Visualización</p>
+                <p class="text-xs md:text-sm font-black tracking-widest">Interactiva</p>
             </div>
         </div>
     </div>
@@ -250,41 +253,72 @@
         
         <div class="flex items-start md:pl-8 mb-10 md:mb-0">
             <h2 class="text-4xl md:text-5xl font-black tracking-tighter">
-                FAQ
+                PREGUNTAS <br/> FRECUENTES
             </h2>
         </div>
 
         <div class="space-y-0.5 border-l border-white/20 md:border-l-0">
-        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
-            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
-                Why buy drones from us?
-            </span>
-            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
-        </a>
-        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
-            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
-                What can I use a drone for?
-            </span>
-            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
-        </a>
-        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
-            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
-                How do I charge a drone battery?
-            </span>
-            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
-        </a>
-        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
-            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
-                Do I need a license to fly a drone?
-            </span>
-            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
-        </a>
-        <a href="#" class="group flex items-center justify-between py-5 px-6 border-b border-white/20 hover:bg-white/5 transition-colors">
-            <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
-                What type of drone is right for me?
-            </span>
-            <span class="text-xl md:text-2xl font-light transform transition-transform group-hover:translate-x-2">→</span>
-        </a>
+            
+            <details class="group border-b border-white/20">
+                <summary class="flex items-center justify-between py-5 px-6 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                    <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                        ¿Cuál fue el punto de partida del proyecto?
+                    </span>
+                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                </summary>
+                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                    El proyecto comenzó con la necesidad de aplicar los fundamentos de electrónica, control y procesamiento de señales en un sistema funcional, documentando cada etapa.
+                </div>
+            </details>
+
+            <details class="group border-b border-white/20">
+                <summary class="flex items-center justify-between py-5 px-6 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                    <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                        ¿Qué herramientas de diseño y simulación se utilizaron?
+                    </span>
+                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                </summary>
+                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                    Se emplearon software de simulación de circuitos (SPICE), entornos de desarrollo para microcontroladores (STM32, Arduino) y herramientas CAD para el diseño mecánico.
+                </div>
+            </details>
+
+            <details class="group border-b border-white/20">
+                <summary class="flex items-center justify-between py-5 px-6 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                    <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                        ¿Cómo se documentó el proceso?
+                    </span>
+                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                </summary>
+                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                    Se llevó un registro fotográfico detallado de las etapas de construcción, pruebas y resultados, además de bitácoras técnicas y esquemáticos.
+                </div>
+            </details>
+
+            <details class="group border-b border-white/20">
+                <summary class="flex items-center justify-between py-5 px-6 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                    <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                        ¿Qué disciplinas de la carrera se integraron?
+                    </span>
+                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                </summary>
+                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                    Electrónica analógica y digital, sistemas de control embebido, instrumentación, procesamiento de señales, diseño mecánico y comunicación visual.
+                </div>
+            </details>
+
+            <details class="group border-b border-white/20">
+                <summary class="flex items-center justify-between py-5 px-6 cursor-pointer list-none hover:bg-white/5 transition-colors">
+                    <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
+                        ¿Dónde se pueden ver más detalles?
+                    </span>
+                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                </summary>
+                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                    Toda la documentación, planos, código fuente y galería fotográfica están disponibles en las secciones habilitadas en este sitio.
+                </div>
+            </details>
+
         </div>
     </div>
 
@@ -292,18 +326,25 @@
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
         
         <div class="text-sm md:text-base font-extrabold tracking-[0.3em]">
-            Drone
+            PROYECTO DE FIN DE CARRERA 2026
         </div>
 
         <nav class="flex flex-wrap gap-x-6 gap-y-2 text-[10px] md:text-xs font-bold tracking-[0.2em] opacity-80">
-            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Main</a>
-            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">About</a>
-            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Store</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Inicio</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Proceso</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Galería</a>
             <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">FAQ</a>
-            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Contact</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Contacto</a>
         </nav>
         
         </div>
     </div>
 
 </footer>
+
+<style>
+    /* Oculta la flecha por defecto de la etiqueta summary en navegadores */
+    summary::-webkit-details-marker {
+        display: none;
+    }
+</style>
