@@ -266,7 +266,7 @@
                     </span>
                     <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
                 </summary>
-                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     El proyecto comenzó con la necesidad de aplicar los fundamentos de electrónica, control y procesamiento de señales en un sistema funcional, documentando cada etapa.
                 </div>
             </details>
@@ -278,7 +278,7 @@
                     </span>
                     <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
                 </summary>
-                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     Se emplearon software de simulación de circuitos (SPICE), entornos de desarrollo para microcontroladores (STM32, Arduino) y herramientas CAD para el diseño mecánico.
                 </div>
             </details>
@@ -290,7 +290,7 @@
                     </span>
                     <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
                 </summary>
-                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     Se llevó un registro fotográfico detallado de las etapas de construcción, pruebas y resultados, además de bitácoras técnicas y esquemáticos.
                 </div>
             </details>
@@ -302,7 +302,7 @@
                     </span>
                     <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
                 </summary>
-                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     Electrónica analógica y digital, sistemas de control embebido, instrumentación, procesamiento de señales, diseño mecánico y comunicación visual.
                 </div>
             </details>
@@ -314,7 +314,7 @@
                     </span>
                     <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
                 </summary>
-                <div class="px-6 pb-6 text-[10px] md:text-xs tracking-widest leading-relaxed opacity-70 normal-case">
+                <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     Toda la documentación, planos, código fuente y galería fotográfica están disponibles en las secciones habilitadas en este sitio.
                 </div>
             </details>
