@@ -57,12 +57,12 @@
 <section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide p-6 md:p-10 md:px-14 overflow-hidden">
 
     <div class="absolute inset-0 pointer-events-none">
-        <div class="absolute top-[35%] left-0 w-full h-px bg-black/10"></div>
+        <div class="absolute top-[37%] left-0 w-full h-px bg-black/10"></div>
         
         <div class="grid grid-cols-2 md:grid-cols-4 h-full px-6 md:px-14">
-            <div class="relative border-r border-black/10"> <!-- Linea que llega hasta el final -->
+            <div class="relative z-10 border-r border-black/10"> <!-- Linea que llega hasta el final -->
                 <!-- Circulo del puntero -->
-                <div class="absolute top-[35%] right-0 -translate-y-1/2 translate-x-1/2 z-20">
+                <div class="absolute top-[37%] right-0 -translate-y-1/2 translate-x-1/2 z-20">
                     <div class="bg-white border border-black/30 rounded-full w-8 h-8 flex items-center justify-center">
                         <div class="w-4 h-4 border border-black/40 rounded-full flex items-center justify-center relative">
                             <div class="w-px h-full bg-black/40 absolute"></div>
