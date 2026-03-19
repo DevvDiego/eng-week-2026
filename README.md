@@ -5,3 +5,6 @@
 - [] agregar una ruta alterna que te permita ver la ficha tecnica
 - [] agregar ruta alterna que trabaje exclusivamente con los agradecimientos
 - [] agregar FAQS funcionales
+- [] Agregar seccion que muestre el juego (con una breve explicacion)
+- [] agregar ficha tecnica
+- [] Agregar seccion que denote el uso academico y los posibles usos comerciales
