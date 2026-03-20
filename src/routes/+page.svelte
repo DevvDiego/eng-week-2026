@@ -258,71 +258,84 @@
     </div>
 
     <div class="relative z-10">
-        <div class="flex flex-col sm:flex-row justify-center gap-5 sm:justify-between sm:items-end  w-full mb-16">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end w-full mb-20">
             
-            <h2 class="text-4xl md:text-6xl text-center font-black tracking-tighter leading-none">
+            <h2 class="text-4xl md:text-7xl font-black tracking-tighter leading-[0.85]">
                 CAMPOS DE <br/> APLICACIÓN
             </h2>
             
-            <p class="text-[10px] md:text-xs font-bold leading-tight text-center sm:text-right tracking-widest opacity-40">
-                PROYECCIÓN <br/> MULTIDISCIPLINAR
+            <p class="text-[10px] md:text-xs font-bold leading-tight tracking-[0.2em] opacity-40 mt-8 md:mt-0 md:text-right border-l md:border-l-0 md:border-r-2 border-black pl-4 md:pl-0 md:pr-4">
+                POTENCIAL DE INTEGRACIÓN <br/> MULTIDISCIPLINARIA
             </p>
             
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-black">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t-2 border-black">
             
-            <div class="border-b border-black md:border-r p-8 md:p-12 hover:bg-zinc-50 transition-colors">
-                <span class="text-xs font-black text-black/50 mb-12 block tracking-[0.4em]">
-                    ACADÉMICO
-                </span>
+            <div class="border-b border-black md:border-r md:border-b-0 p-8 md:p-16 hover:bg-white transition-colors duration-500">
+                <div class="flex items-center gap-4 mb-16">
+                    <span class="text-xs font-black bg-black text-white px-2 py-1">01</span>
+                    <span class="text-xs font-black tracking-[0.5em] opacity-50">ACADÉMICO</span>
+                </div>
                 
-                <div class="space-y-10">
-                    <div>
-                        <h4 class="text-sm font-black italic mb-2">Diseño gráfico</h4>
-                        <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
-                            Obtención de mejores angulos para assets 3D e imagenes mas expresivas.
+                <div class="space-y-12">
+                    <div class="group">
+                        <h4 class="text-sm font-black italic mb-3 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                            DISEÑO GRÁFICO
+                        </h4>
+                        <p class="text-sm normal-case opacity-60 leading-relaxed max-w-sm">
+                            Exploración de ángulos cinemáticos complejos para contenido 3D y generación de narrativa visual técnica de alta fidelidad.
                         </p>
                     </div>
                     
-                    <div>
-                        <h4 class="text-sm font-black italic mb-2">Criminología</h4>
-                        <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
-                            Reconstrucción fotogramétrica de escenas y mapeo perimetral de precisión.
+                    <div class="group">
+                        <h4 class="text-sm font-black italic mb-3 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                            CRIMINOLOGÍA
+                        </h4>
+                        <p class="text-sm normal-case opacity-60 leading-relaxed max-w-sm">
+                            Modelado de precisión para reconstrucción de escenas y análisis perimetral sin alteración de evidencia física.
                         </p>
                     </div>
                     
-                    <div>
-                        <h4 class="text-sm font-black italic mb-2">Derecho</h4>
-                        <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
-                            Análisis de normativa aérea, privacidad y marcos legales de tecnología autónoma.
+                    <div class="group">
+                        <h4 class="text-sm font-black italic mb-3 flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                            DERECHO
+                        </h4>
+                        <p class="text-sm normal-case opacity-60 leading-relaxed max-w-sm">
+                            Casos de estudio sobre privacidad de datos, legislación de espacio aéreo y propiedad intelectual en hardware libre.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="border-b border-black p-8 md:p-12 hover:bg-zinc-50 transition-colors flex flex-col justify-between">
+            <div class="p-8 md:p-16 md:pt-40 hover:bg-white transition-colors duration-500 flex flex-col justify-between">
                 <div>
-                    <span class="text-xs font-black text-black/50 mb-12 block tracking-[0.4em]">
-                        COMERCIAL
-                    </span>
+                    <div class="flex items-center gap-4 mb-16">
+                        <span class="text-xs font-black border border-black px-2 py-1">02</span>
+                        <span class="text-xs font-black tracking-[0.5em] opacity-50">COMERCIAL</span>
+                    </div>
                     
-                    <div class="space-y-10">
-                        <div>
-                            <h4 class="text-sm font-black italic mb-2">
-                                Inspección de Infraestructura
+                    <div class="space-y-12">
+                        <div class="group">
+                            <h4 class="text-sm font-black italic mb-3">
+                                <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                INSPECCIÓN TÉCNICA
                             </h4>
-                            <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
-                                Monitoreo de áreas de difícil acceso en ingeniería civil y arquitectura.
+                            <p class="text-sm normal-case opacity-60 leading-relaxed max-w-sm">
+                                Auditoría visual de infraestructuras críticas (puentes, cableado, techumbres) reduciendo costos operacionales y riesgos.
                             </p>
                         </div>
                         
-                        <div>
-                            <h4 class="text-sm font-black italic mb-2">
-                                Asset Digital
+                        <div class="group">
+                            <h4 class="text-sm font-black italic mb-3">
+                                <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                DIGITAL ASSETS
                             </h4>
-                            <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
-                                Integración en flujos de trabajo de VFX y publicidad de alto impacto visual.
+                            <p class="text-sm normal-case opacity-60 leading-relaxed max-w-sm">
+                                Creación de librerías visuales para VFX y publicidad, integrando hardware real en entornos virtuales.
                             </p>
                         </div>
                     </div>
