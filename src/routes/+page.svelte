@@ -260,7 +260,7 @@
     <div class="relative z-10">
         <div class="flex flex-col md:flex-row justify-between items-start md:items-end w-full mb-20">
             
-            <h2 class="text-4xl md:text-7xl font-black tracking-tighter leading-[0.85]">
+            <h2 class="text-4xl md:text-7xl font-black tracking-tighter ">
                 CAMPOS DE <br/> APLICACIÓN
             </h2>
             
