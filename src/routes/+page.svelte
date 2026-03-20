@@ -8,7 +8,7 @@
 <section class="relative h-screen w-full overflow-hidden bg-black text-white font-sans uppercase tracking-tighter p-6 md:p-10">
   
     <div class="absolute inset-0 z-0 opacity-40">
-        <img src="https://picsum.photos/id/10/2500/1600" alt="BG" class="h-full w-full object-cover" />
+        <img src="/drone2-tools.jpg" alt="BG" class="h-full w-full object-cover" />
         <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-40">
             <div class="absolute w-full h-px bg-white"></div>
             <div class="absolute h-full w-px bg-white"></div>
@@ -95,7 +95,7 @@
     <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 ">
         <div class="relative border-r border-b border-black/10 md:border-b-0 p-10 md:pt-32 min-h-56 md:min-h-75">
             <div class="mb-6">
-                <img src="https://picsum.photos/800" class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Diseño electrónico">
+                <img src="/drone-brick-bg.jpg" class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Un Drone volando frente una pared de ladrillos">
             </div>
             <span class="block text-xl md:text-2xl font-bold">
                 0.1
@@ -126,7 +126,7 @@
 
         <div class="relative border-l border-b border-black/10 md:border-b-0 p-10 md:pt-32 min-h-56 md:min-h-75">
             <div class="mb-6">
-                <img src="https://picsum.photos/800" class="w-32 md:w-40 rotate-6 shadow-lg" alt="Pruebas">
+                <img src="/drone-UM-bg.jpg" class="w-32 md:w-40 rotate-6 shadow-lg" alt="Pruebas">
             </div>
             <span class="block text-xl md:text-2xl font-bold">
                 0.4
@@ -143,7 +143,7 @@
 <section class="relative min-h-screen w-full bg-zinc-900 text-white font-sans uppercase overflow-hidden p-6 md:p-10">
   
     <div class="absolute inset-0 z-0">
-        <img src="https://picsum.photos/id/1081/1200/1800" alt="Laboratorio" class="h-full w-full object-cover opacity-60" />
+        <img src="drone2-leaves.jpg" alt="Laboratorio" class="h-full w-full object-cover opacity-60" />
     </div>
 
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full min-h-[80vh]">
