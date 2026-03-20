@@ -247,6 +247,93 @@
 </section>
 
 
+<section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide p-6 md:p-14 overflow-hidden border-t border-black/10">
+    
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="grid grid-cols-2 md:grid-cols-4 h-full px-6 md:px-14">
+            <div class="border-r border-black/5"></div>
+            <div class="border-r border-black/5"></div>
+            <div class="border-r border-black/5"></div>
+        </div>
+    </div>
+
+    <div class="relative z-10">
+        <div class="flex flex-col sm:flex-row justify-center gap-5 sm:justify-between sm:items-end  w-full mb-16">
+            
+            <h2 class="text-4xl md:text-6xl text-center font-black tracking-tighter leading-none">
+                CAMPOS DE <br/> APLICACIÓN
+            </h2>
+            
+            <p class="text-[10px] md:text-xs font-bold leading-tight text-center sm:text-right tracking-widest opacity-40">
+                PROYECCIÓN <br/> MULTIDISCIPLINAR
+            </p>
+            
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border-t border-black">
+            
+            <div class="border-b border-black md:border-r p-8 md:p-12 hover:bg-zinc-50 transition-colors">
+                <span class="text-xs font-black text-black/50 mb-12 block tracking-[0.4em]">
+                    ACADÉMICO
+                </span>
+                
+                <div class="space-y-10">
+                    <div>
+                        <h4 class="text-sm font-black italic mb-2">Diseño gráfico</h4>
+                        <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
+                            Obtención de mejores angulos para assets 3D e imagenes mas expresivas.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-sm font-black italic mb-2">Criminología</h4>
+                        <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
+                            Reconstrucción fotogramétrica de escenas y mapeo perimetral de precisión.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-sm font-black italic mb-2">Derecho</h4>
+                        <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
+                            Análisis de normativa aérea, privacidad y marcos legales de tecnología autónoma.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-b border-black p-8 md:p-12 hover:bg-zinc-50 transition-colors flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-black text-black/50 mb-12 block tracking-[0.4em]">
+                        COMERCIAL
+                    </span>
+                    
+                    <div class="space-y-10">
+                        <div>
+                            <h4 class="text-sm font-black italic mb-2">
+                                Inspección de Infraestructura
+                            </h4>
+                            <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
+                                Monitoreo de áreas de difícil acceso en ingeniería civil y arquitectura.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-sm font-black italic mb-2">
+                                Asset Digital
+                            </h4>
+                            <p class="text-sm normal-case opacity-70 leading-snug tracking-normal">
+                                Integración en flujos de trabajo de VFX y publicidad de alto impacto visual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <footer class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
     
     <div class="grid grid-cols-1 md:grid-cols-2 pt-10 pb-20">
