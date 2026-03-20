@@ -320,7 +320,7 @@
                     
                     <div class="space-y-12">
                         <div class="group">
-                            <h4 class="text-sm font-black italic mb-3">
+                            <h4 class="text-sm font-black italic mb-3 flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
                                 INSPECCIÓN TÉCNICA
                             </h4>
@@ -330,7 +330,7 @@
                         </div>
                         
                         <div class="group">
-                            <h4 class="text-sm font-black italic mb-3">
+                            <h4 class="text-sm font-black italic mb-3 flex items-center gap-2">
                                 <span class="w-1.5 h-1.5 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
                                 DIGITAL ASSETS
                             </h4>
