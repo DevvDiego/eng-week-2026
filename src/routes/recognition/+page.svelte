@@ -84,7 +84,7 @@
 
         <div class="mt-12 grid grid-cols-1 md:grid-cols-4 border border-black/10 bg-white/80 backdrop-blur-sm">
             <div class="p-6 border-b md:border-b-0 md:border-r border-black/10">
-                <span class="text-[9px] font-black text-black/40 block mb-4 tracking-[0.2em]">TENCOLOGIAS</span>
+                <span class="text-[9px] font-black text-black/40 block mb-4 tracking-[0.2em]">TECNOLOGÍAS</span>
                 <h5 class="text-xs font-bold">INFRAESTRUCTURA <br/> DEL PROYECTO</h5>
             </div>
             
