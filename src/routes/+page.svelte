@@ -247,6 +247,69 @@
 </section>
 
 
+
+
+<section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide overflow-hidden border-t border-black/30">
+
+    <!-- Líneas de cuadrícula decorativas -->
+    <div class="absolute inset-0 pointer-events-none z-0">
+        <div class="grid grid-cols-2 md:grid-cols-4 h-full px-6 md:px-14">
+            <div class="border-r border-black/30"></div>
+            <div class="border-r border-black/30"></div>
+            <div class="border-r border-black/30"></div>
+        </div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto h-full min-h-screen flex items-center p-6 md:p-14">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 w-full">
+            
+            <!-- Columna de texto -->
+            <div class="self-center space-y-6 text-center md:text-left">
+                
+                <h2 class="text-4xl md:text-7xl font-black tracking-tighter text-black">
+                    FORMACIÓN <br/> ACADÉMICA
+                </h2>
+                
+                <h3 class="text-2xl sm:text-3xl md:text-5xl font-black tracking-tighter leading-tight">
+                    UNIVERSIDAD <br/>
+                    <span class="italic pb-1 text-blue-800">
+                        UNIVER MILENIUM
+                    </span>
+                </h3>
+                
+                <p class="text-xs md:text-sm leading-relaxed tracking-widest font-medium text-black/70 max-w-md mx-auto md:mx-0">
+                    Este proyecto fue desarrollado con el apoyo y la formación recibida en la 
+                    <strong class="text-black">UNIVERSIDAD UNIVER MILENIUM</strong>, 
+                    donde cada etapa desde la conceptualización hasta la validación final 
+                    fue guiada por profesionales comprometidos con la excelencia académica y la innovación tecnológica.
+                </p>
+                
+            </div>
+
+            <!-- Columna de video -->
+            <div class="h-full w-full overflow-hidden rounded-xl shadow-2xl border border-black">
+                <iframe 
+                    class="w-full h-full"
+                    src="https://www.youtube-nocookie.com/embed/IaqAEzhw3Sg?loop=1&playlist=IaqAEzhw3Sg&controls=1&modestbranding=1&rel=0&showinfo=0&color=white&iv_load_policy=3"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Detalles decorativos -->
+    <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 w-4 h-4 border-b border-l border-black/30"></div>
+    <div class="absolute bottom-6 right-6 md:bottom-10 md:right-10 w-4 h-4 border-b border-r border-black/30"></div>
+</section>
+
+
+
 <footer class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
     
     <div class="grid grid-cols-1 md:grid-cols-2 pt-10 pb-20">
