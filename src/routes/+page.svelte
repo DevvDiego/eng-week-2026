@@ -249,14 +249,15 @@
 
 
 
-<section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide overflow-hidden border-t border-black/30">
+<section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide 
+    overflow-hidden border-t border-black/10">
 
     <!-- Líneas de cuadrícula decorativas -->
     <div class="absolute inset-0 pointer-events-none z-0">
         <div class="grid grid-cols-2 md:grid-cols-4 h-full px-6 md:px-14">
-            <div class="border-r border-black/30"></div>
-            <div class="border-r border-black/30"></div>
-            <div class="border-r border-black/30"></div>
+            <div class="border-r border-black/10"></div>
+            <div class="border-r border-black/10"></div>
+            <div class="border-r border-black/10"></div>
         </div>
     </div>
 
@@ -304,8 +305,8 @@
     </div>
 
     <!-- Detalles decorativos -->
-    <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 w-4 h-4 border-b border-l border-black/30"></div>
-    <div class="absolute bottom-6 right-6 md:bottom-10 md:right-10 w-4 h-4 border-b border-r border-black/30"></div>
+    <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 w-4 h-4 border-b border-l border-black/10"></div>
+    <div class="absolute bottom-6 right-6 md:bottom-10 md:right-10 w-4 h-4 border-b border-r border-black/10"></div>
 </section>
 
 
