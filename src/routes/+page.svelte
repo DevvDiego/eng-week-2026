@@ -308,6 +308,12 @@
                     fue guiada por profesionales comprometidos con la excelencia académica y la innovación tecnológica.
                 </p>
                 
+                <a href={resolve("/recognition")} class="relative inline-block group/btn overflow-hidden border border-black/20 px-5 py-2.5 
+                text-[10px] md:text-xs font-black tracking-[0.3em] transition-all duration-300 bg-transparent text-black hover:text-white">
+                    <div class="absolute inset-0 bg-black translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300 ease-out"></div>
+                    <span class="relative z-10">Reconocimientos</span>
+                </a>
+                
             </div>
 
             <!-- Columna de video -->
