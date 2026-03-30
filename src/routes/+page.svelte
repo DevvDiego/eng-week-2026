@@ -197,50 +197,72 @@
 
 <section class="relative min-h-screen w-full bg-white text-black font-sans uppercase tracking-wide p-6 md:p-10 md:px-14 overflow-hidden flex flex-col justify-center items-center">
 
-    <div class="absolute inset-0 pointer-events-none opacity-[0.03]" 
-         style="background-image: radial-gradient(#000 1px, transparent 1px); background-size: 30px 30px;">
-    </div>
-    
-    <div class="absolute top-6 left-6 md:top-10 md:left-10 w-4 h-4 border-t border-l border-black/20"></div>
-    <div class="absolute top-6 right-6 md:top-10 md:right-10 w-4 h-4 border-t border-r border-black/20"></div>
-    <div class="absolute bottom-6 left-6 md:bottom-10 md:left-10 w-4 h-4 border-b border-l border-black/20"></div>
-    <div class="absolute bottom-6 right-6 md:bottom-10 md:right-10 w-4 h-4 border-b border-r border-black/20"></div>
-
-    <div class="relative z-10 text-center w-full max-w-4xl">
-        <div class="mb-8 md:mb-16">
-            <span class="text-[8px] md:text-[10px] font-black tracking-[0.5em] text-black/40 block mb-3">Modelado y Representación</span>
+    <div class="relative z-10 text-center w-full max-w-6xl">
+        
+        <!-- Titulo principal -->
+        <div class="mb-12 md:mb-16">
             <h2 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-none italic">
-                EXPLORA LOS <br class="hidden sm:block"/> DISEÑOS EN 3D
+                EXPLORA LOS <br class="hidden sm:block"/> COMPONENTES DEL PROYECTO
             </h2>
         </div>
 
-        <div class="relative inline-block group mb-16 md:mb-24">
-            <div class="absolute -top-1 -left-1 w-3 h-3 border-t-2 border-l-2 border-black z-20 transition-all duration-300 group-hover:-top-2 group-hover:-left-2"></div>
-            <div class="absolute -bottom-1 -right-1 w-3 h-3 border-b-2 border-r-2 border-black z-20 transition-all duration-300 group-hover:-bottom-2 group-hover:-right-2"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 w-full">
             
-            <a href={resolve("/viewer")} class="relative flex items-center justify-center min-w-60 md:min-w-70 overflow-hidden border border-black/20 px-10 py-5 md:px-16 md:py-6 text-xs md:text-sm font-black tracking-[0.3em] transition-all duration-300 bg-transparent text-black hover:text-white">
+            <!-- Modelo 3D -->
+            <div class="group relative border border-black/10 p-6 md:p-8 text-left transition-all duration-300 hover:shadow-2xl hover:border-black/30">
+                <div class="absolute -top-1 -left-1 w-3 h-3 border-t-2 border-l-2 border-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div class="absolute -bottom-1 -right-1 w-3 h-3 border-b-2 border-r-2 border-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
-                <div class="absolute inset-0 bg-black translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
+                <h3 class="text-2xl md:text-3xl font-black tracking-tighter mb-2">
+                    Modelos 3D
+                </h3>
+                <p class="text-xs md:text-sm font-medium tracking-wider text-black/60 mb-6 uppercase">
+                    Visualización interactiva de los diseños en tres dimensiones.
+                </p>
                 
-                <span class="relative z-10">
-                    VER MODELOS 3D
-                </span>
-            </a>
-        </div>
+                <a href={resolve("/viewer")} class="relative inline-block group/btn overflow-hidden border border-black/20 px-5 py-2.5 text-[10px] md:text-xs font-black tracking-[0.3em] transition-all duration-300 bg-transparent text-black hover:text-white">
+                    <div class="absolute inset-0 bg-black translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300 ease-out"></div>
+                    <span class="relative z-10">EXPLORAR</span>
+                </a>
+            </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-24 border-t border-black/10 pt-8 w-full max-w-2xl mx-auto">
-            <div class="text-center sm:text-left">
-                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Electrónica</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">Integrada</p>
+            <!-- Ficha Tecnica -->
+            <div class="group relative border border-black/10 p-6 md:p-8 text-left transition-all duration-300 hover:shadow-2xl hover:border-black/30">
+                <div class="absolute -top-1 -left-1 w-3 h-3 border-t-2 border-l-2 border-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div class="absolute -bottom-1 -right-1 w-3 h-3 border-b-2 border-r-2 border-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                
+                <h3 class="text-2xl md:text-3xl font-black tracking-tighter mb-2">
+                    Ficha Técnica
+                </h3>
+                <p class="text-xs md:text-sm font-medium tracking-wider text-black/60 mb-6 uppercase">
+                    Especificaciones, y documentación del sistema.
+                </p>
+                
+                <a href={"/fichaTecnica.pdf"} class="relative inline-block group/btn overflow-hidden border border-black/20 px-5 py-2.5 text-[10px] md:text-xs font-black tracking-[0.3em] transition-all duration-300 bg-transparent text-black hover:text-white">
+                    <div class="absolute inset-0 bg-black translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300 ease-out"></div>
+                    <span class="relative z-10">VER</span>
+                </a>
             </div>
-            <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
-                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Mecánica</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">Prototipada</p>
+
+            <!-- Juego -->
+            <div class="group relative border border-black/10 p-6 md:p-8 text-left transition-all duration-300 hover:shadow-2xl hover:border-black/30">
+                <div class="absolute -top-1 -left-1 w-3 h-3 border-t-2 border-l-2 border-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div class="absolute -bottom-1 -right-1 w-3 h-3 border-b-2 border-r-2 border-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                
+                <h3 class="text-2xl md:text-3xl font-black tracking-tighter mb-2">
+                    Juego
+                </h3>
+                <p class="text-xs md:text-sm font-medium tracking-wider text-black/60 mb-6 uppercase">
+                    Una experiencia lúdica que complementa los conceptos del proyecto.
+                </p>
+                
+                <a href={"#"} class="relative inline-block group/btn overflow-hidden border border-black/20 px-5 py-2.5 text-[10px] md:text-xs font-black tracking-[0.3em] transition-all duration-300 bg-transparent text-black hover:text-white">
+                    <div class="absolute inset-0 bg-black translate-y-full group-hover/btn:translate-y-0 transition-transform duration-300 ease-out"></div>
+                    <span class="relative z-10">JUGAR AHORA</span>
+                </a>
+                
             </div>
-            <div class="text-center sm:text-left border-t border-black/5 pt-4 sm:border-0 sm:pt-0">
-                <p class="text-[8px] md:text-[9px] font-bold text-black/40 mb-1">Visualización</p>
-                <p class="text-xs md:text-sm font-black tracking-widest">Interactiva</p>
-            </div>
+
         </div>
     </div>
 
