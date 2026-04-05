@@ -523,10 +523,10 @@
 
         <nav class="flex flex-wrap gap-x-6 gap-y-2 text-[10px] md:text-xs font-bold tracking-[0.2em] opacity-80">
             <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Inicio</a>
-            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Proceso</a>
+            <!-- <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Proceso</a>
             <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Galería</a>
             <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">FAQ</a>
-            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Contacto</a>
+            <a href="#" class="hover:text-white hover:opacity-100 transition-opacity">Contacto</a> -->
         </nav>
         
         </div>
