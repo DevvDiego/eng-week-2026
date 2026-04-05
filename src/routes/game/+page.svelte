@@ -1,5 +1,6 @@
 <script>
     import { resolve } from "$app/paths";
+    import Navbar from "$lib/components/navbar.svelte";
 
 </script>
 
@@ -11,6 +12,9 @@
         <div class="absolute inset-0 bg-black opacity-50"></div>
     </div>
 
+    <Navbar class="absolute top-0 left-0 w-full z-50 p-6 md:p-10">
+    </Navbar>
+    
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full min-h-[80vh]">
         
         <div class="flex flex-col justify-center p-4 md:p-12">

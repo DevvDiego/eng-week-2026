@@ -140,7 +140,7 @@
 </section>
 
 
-<section class="relative min-h-screen w-full bg-zinc-900 text-white font-sans uppercase overflow-hidden p-6 md:p-10">
+<section id="about" class="relative min-h-screen w-full bg-zinc-900 text-white font-sans uppercase overflow-hidden p-6 md:p-10">
   
     <div class="absolute inset-0 z-0">
         <img src="drone2-leaves.png" alt="Laboratorio" class="h-full w-full object-cover opacity-60" />
@@ -439,7 +439,7 @@
 </section>
 
 
-<footer class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
+<footer id="faq" class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
     
     <div class="grid grid-cols-1 md:grid-cols-2 pt-10 pb-20">
         
