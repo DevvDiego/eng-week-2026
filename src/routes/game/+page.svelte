@@ -31,7 +31,7 @@
 
             <div class="relative z-10 text-center sm:text-right group">
                 <h3 class="text-sm md:text-lg font-black tracking-tighter">
-                    <a href="#">
+                    <a href="https://www.roblox.com/games/126294200179533/Drones">
                         Jugar ahora
                     </a>
                 </h3>
