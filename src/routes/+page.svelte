@@ -439,7 +439,7 @@
 </section>
 
 
-<footer id="faq" class="relative h-full flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
+<footer id="faq" class="relative flex flex-col justify-between min-h-[70vh] w-full bg-[#1a2315] text-white font-sans uppercase overflow-hidden p-6 md:p-14">
     
     <div class="grid grid-cols-1 md:grid-cols-2 pt-10 pb-20">
         
@@ -456,7 +456,7 @@
                     <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
                         ¿Cuál fue el punto de partida del proyecto?
                     </span>
-                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                    <span class="text-xl md:text-2xl font-light transition-transform duration-300 group-open:rotate-90 group-hover:translate-x-2" aria-hidden="true">→</span>
                 </summary>
                 <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     El proyecto comenzó con la necesidad de aplicar los fundamentos de electrónica, control y procesamiento de señales en un sistema funcional, documentando cada etapa.
@@ -468,10 +468,10 @@
                     <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
                         ¿Qué herramientas de diseño y simulación se utilizaron?
                     </span>
-                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                    <span class="text-xl md:text-2xl font-light transition-transform duration-300 group-open:rotate-90 group-hover:translate-x-2" aria-hidden="true">→</span>
                 </summary>
                 <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
-                    Se emplearon software de simulación de circuitos (SPICE), entornos de desarrollo para microcontroladores (STM32, Arduino) y herramientas CAD para el diseño mecánico.
+                    Se emplearon software de simulación de circuitos (SPICE) y entornos de desarrollo para microcontroladores como ESP32 y Arduino.
                 </div>
             </details>
 
@@ -480,7 +480,7 @@
                     <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
                         ¿Cómo se documentó el proceso?
                     </span>
-                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                    <span class="text-xl md:text-2xl font-light transition-transform duration-300 group-open:rotate-90 group-hover:translate-x-2" aria-hidden="true">→</span>
                 </summary>
                 <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
                     Se llevó un registro fotográfico detallado de las etapas de construcción, pruebas y resultados, además de bitácoras técnicas y esquemáticos.
@@ -490,12 +490,12 @@
             <details class="group border-b border-white/20">
                 <summary class="flex items-center justify-between py-5 px-6 cursor-pointer list-none hover:bg-white/5 transition-colors">
                     <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
-                        ¿Qué disciplinas de la carrera se integraron?
+                        ¿Qué materias de la carrera se integraron?
                     </span>
-                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                    <span class="text-xl md:text-2xl font-light transition-transform duration-300 group-open:rotate-90 group-hover:translate-x-2" aria-hidden="true">→</span>
                 </summary>
                 <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
-                    Electrónica analógica y digital, sistemas de control embebido, instrumentación, procesamiento de señales, diseño mecánico y comunicación visual.
+                    Electrónica analógica y digital, sistemas embebidos, programación avanzada, diseño web y gestión de proyectos.
                 </div>
             </details>
 
@@ -504,10 +504,10 @@
                     <span class="text-xs md:text-sm font-bold tracking-[0.15em]">
                         ¿Dónde se pueden ver más detalles?
                     </span>
-                    <span class="text-xl md:text-2xl font-light transform transition-transform group-open:rotate-90 group-hover:translate-x-2">→</span>
+                    <span class="text-xl md:text-2xl font-light transition-transform duration-300 group-open:rotate-90 group-hover:translate-x-2" aria-hidden="true">→</span>
                 </summary>
                 <div class="px-6 pb-6 text-xs tracking-widest leading-relaxed opacity-70 normal-case">
-                    Toda la documentación, planos, código fuente y galería fotográfica están disponibles en las secciones habilitadas en este sitio.
+                    Toda la documentación y planos están disponibles en las secciones habilitadas en este sitio.
                 </div>
             </details>
 
