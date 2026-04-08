@@ -62,9 +62,31 @@
                 >-</button>
             </div>
             
-            <div>
-                <label for="">Change model</label>
-                <input type="checkbox" onchange={(e)=>changeModel(e)} >
+            <div class="flex flex-col items-center gap-3">
+                <span class="text-[10px] font-mono uppercase tracking-widest opacity-60">Model Select</span>
+                
+                <label class="relative inline-flex items-center cursor-pointer group">
+                    <input 
+                        type="checkbox" 
+                        class="sr-only peer" 
+                        onchange={(e) => changeModel(e)}
+                    >
+                    
+                    <div class="w-14 h-7 bg-white/5 border border-white/10 rounded-full peer 
+                                peer-checked:bg-blue-500/20 peer-checked:border-blue-400/50 
+                                transition-all duration-300 ease-in-out">
+                    </div>
+                    
+                    <div class="absolute left-1 top-1 w-5 h-5 bg-white/40 rounded-full transition-all duration-300 
+                                peer-checked:translate-x-7 peer-checked:bg-blue-400 shadow-[0_0_10px_rgba(96,165,250,0)]
+                                peer-checked:shadow-[0_0_15px_rgba(96,165,250,0.6)]">
+                    </div>
+                </label>
+                
+                <div class="flex gap-4 text-[10px] font-mono mt-1">
+                    <span class={selectedModel === 'one' ? 'text-blue-400' : 'opacity-30'}>M-01</span>
+                    <span class={selectedModel === 'two' ? 'text-blue-400' : 'opacity-30'}>M-02</span>
+                </div>
             </div>
         </div>
 
