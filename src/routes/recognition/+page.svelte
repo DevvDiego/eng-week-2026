@@ -32,9 +32,10 @@
                     </div>
                     
                     <div>
-                        <h4 class="text-sm font-black italic">Directora X</h4>
+                        <h4 class="text-sm font-black italic">Dr. Susana Gaytán Nájera</h4>
                         <p class="text-sm normal-case opacity-80 tracking-normal mt-2 leading-snug">
-                            A los directivos por fomentar la integración de disciplinas entre sistemas, electrónica y diseño.
+                            Por fomentar la integración de disciplinas entre las carreras de Ing. en Sistemas Computacionales,
+                            Diseño Grafico e Ing. Industrial.
                         </p>
                     </div>
                     
@@ -45,22 +46,22 @@
                 <span class="text-[10px] font-black text-black/40 mb-10 block tracking-widest">MENTORES ACADÉMICOS</span>
                 <div class="space-y-4">
                     <div class="flex justify-between items-baseline border-b border-black/5 pb-2">
-                        <span class="w-1/2 text-xs font-bold">Ing. Mentor Principal</span>
-                        <span class="w-1/2 text-[9px] text-right opacity-50">TUTORÍA TÉCNICA</span>
+                        <span class="w-1/2 text-xs font-bold">Ing. Jose Guadalupe Martinez Ramirez</span>
+                        <span class="w-1/2 text-[9px] text-right opacity-50">Programación Avanzada</span>
                     </div>
                     
                     <div class="flex justify-between items-baseline border-b border-black/5 pb-2">
-                        <span class="w-1/2 text-xs font-bold">Lic. Asesor de Diseño</span>
-                        <span class="w-1/2 text-[9px] text-right opacity-50">COMUNICACIÓN VISUAL</span>
+                        <span class="w-1/2 text-xs font-bold">Ing. Elizabeth Guadarrama Contreras</span>
+                        <span class="w-1/2 text-[9px] text-right opacity-50">#######</span>
                     </div>
                     
                     <div class="flex justify-between items-baseline border-b border-black/5 pb-2">
-                        <span class="w-1/2 text-xs font-bold">Dr. Especialista en Control</span>
-                        <span class="w-1/2 text-[9px] text-right opacity-50">SISTEMAS EMBEBIDOS</span>
+                        <span class="w-1/2 text-xs font-bold">Ing. #####</span>
+                        <span class="w-1/2 text-[9px] text-right opacity-50">#####</span>
                     </div>
                     
                     <p class="text-sm normal-case opacity-80 pt-6 leading-snug italic">
-                        Gracias por las correcciones críticas que elevaron el estándar de este proyecto integrador.
+                        Gracias por las correcciones críticas que elevaron el estándar de este proyecto de fin de curso.
                     </p>
                     
                 </div>
@@ -90,17 +91,17 @@
             
             <div class="p-6 border-b md:border-b-0 md:border-r border-black/10">
                 <span class="text-[9px] block opacity-50 mb-2">HARDWARE</span>
-                <span class="text-xs font-black uppercase tracking-widest">STM32 / ESP32 / ALTIUM</span>
+                <span class="text-xs font-black uppercase tracking-widest">ESP32 / Arduino</span>
             </div>
             
             <div class="p-6 border-b md:border-b-0 md:border-r border-black/10">
                 <span class="text-[9px] block opacity-50 mb-2">SOFTWARE</span>
-                <span class="text-xs font-black uppercase tracking-widest">SVELTEKIT / TAILWIND / C++</span>
+                <span class="text-xs font-black uppercase tracking-widest"> C++ / SVELTEKIT / P5.JS / TAILWIND </span>
             </div>
             
             <div class="p-6">
-                <span class="text-[9px] block opacity-50 mb-2">VISUALS</span>
-                <span class="text-xs font-black uppercase tracking-widest">BLENDER / P5.JS</span>
+                <span class="text-[9px] block opacity-50 mb-2">CADs</span>
+                <span class="text-xs font-black uppercase tracking-widest">BLENDER / SPICE / KICAD </span>
             </div>
         </div>
 
