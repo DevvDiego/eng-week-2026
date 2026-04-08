@@ -153,12 +153,12 @@
 
     <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 h-full min-h-[80vh]">
         
-        <div class="flex flex-col justify-center p-4 md:p-12">
-            <div class="max-w-md">
+        <div class="flex flex-col justify-center p-4 md:p-12 text-center md:text-left">
+            <div class="max-w-md mx-auto md:mx-0">
                 <h2 class="text-2xl md:text-3xl font-black tracking-tighter mb-4">
                     El recorrido
                 </h2>
-                <p class="text-xs md:text-sm leading-relaxed tracking-widest opacity-90 font-medium">
+                <p class="text-xs md:text-sm leading-relaxed tracking-widest opacity-90 font-medium normal-case">
                     Este proyecto nace de la necesidad de integrar los conocimientos adquiridos 
                     durante la carrera: electrónica analógica y digital, control, procesamiento 
                     de señales, y también la comunicación visual de resultados a través de la 
@@ -167,22 +167,32 @@
             </div>
         </div>
 
-        <div class="relative flex flex-col justify-around items-center sm:items-end p-4 md:p-12 space-y-12 md:space-y-0">
-
-            <div class="relative z-10 text-center sm:text-right group">
-                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">Fase 1</p>
-                <h3 class="text-sm md:text-lg font-black tracking-tighter">Concepto y Diseño</h3>
-            </div>
-
-            <div class="relative z-10 text-right max-w-50">
-                <h3 class="text-sm md:text-lg font-black tracking-tighter leading-none">
-                Desarrollo <br/> en Laboratorio
+        <div class="relative flex flex-col justify-center items-center md:items-end p-4 md:p-12 space-y-12 md:space-y-20">
+            
+            <div class="relative z-10 w-full flex flex-col items-center md:items-end text-center md:text-right">
+                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">
+                    Fase 1
+                </p>
+                <h3 class="text-sm md:text-lg font-black tracking-tighter leading-tight">
+                    Concepto <br class="hidden md:block"/> y diseño
                 </h3>
             </div>
 
-            <div class="relative z-10 text-right">
-                <h3 class="text-sm md:text-lg font-black tracking-tighter">
-                Documentación <br/> y Fotografía
+            <div class="relative z-10 w-full flex flex-col items-center md:items-end text-center md:text-right">
+                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">
+                    Fase 2
+                </p>
+                <h3 class="text-sm md:text-lg font-black tracking-tighter leading-tight">
+                    Desarrollo en <br class="hidden md:block"/> laboratorio dedicado
+                </h3>
+            </div>
+
+            <div class="relative z-10 w-full flex flex-col items-center md:items-end text-center md:text-right">
+                <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] mb-1 opacity-70">
+                    Fase 3
+                </p>
+                <h3 class="text-sm md:text-lg font-black tracking-tighter leading-tight">
+                    Documentación <br class="hidden md:block"/> y fotografía
                 </h3>
             </div>
 
@@ -190,8 +200,8 @@
     </div>
 
     <div class="relative z-10 mt-10 p-6 md:p-10 md:absolute md:bottom-12 md:left-12">
-        <div class="flex items-center justify-center sm:justify-start gap-4">
-            <p class="text-[10px] md:text-xs font-bold tracking-widest hover:text-zinc-400 transition-colors">
+        <div class="flex items-center justify-center md:justify-start">
+            <p class="text-[10px] md:text-xs font-bold tracking-widest hover:text-zinc-400 transition-colors text-center md:text-left border-t border-white/10 pt-4 md:border-0 md:pt-0">
                 MEMORIA TÉCNICA Y <br/> GALERÍA DE IMÁGENES
             </p>
         </div>
