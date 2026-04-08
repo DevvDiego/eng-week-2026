@@ -4,6 +4,7 @@
 
     interface Props{
         bg: string,
+        selectedModel?:"one"|"two",
         direction: null|"up"|"down"|"left"|"right",
         zoom: null|"in"|"out",
         class?: string
@@ -11,6 +12,7 @@
 
     let { 
         bg = "#262626", 
+        selectedModel = "one",
         direction = null, 
         zoom = null, 
         class: klass = ""
@@ -29,7 +31,9 @@
         const P5Class = p5Module.default;
 
         const sketch = (p: p5) => {
-            let drone: any;
+            let drone1: any;
+            let drone2: any;
+            let shownModel: any;
 
             p.setup = async () => {
                 try{
@@ -40,7 +44,11 @@
                     p.angleMode(p.DEGREES);
                     p.normalMaterial();
 
-                    drone = await p.loadModel("/dronn.obj", "obj", true);
+                    drone1 = await p.loadModel("/drone1.obj", "obj", true);
+                    drone2 = await p.loadModel("/drone2.obj", "obj", true);
+                    
+                    shownModel = drone2;
+                    
                 }catch(err) {
                     if(err instanceof Error){
                         console.log("Ocurrio un error al cargar el modelo 3D: " + err.message)
@@ -72,6 +80,10 @@
                 p.directionalLight(255, 255, 255, 0, 0, 1);  // From Front
                 p.directionalLight(255, 255, 255, 0, 0, -1); // From Back
 
+                // leer prop showModel para saber si cambiaremos el modelo mostrado
+                if (selectedModel === "one") shownModel = drone1;
+                if (selectedModel === "two") shownModel = drone2;
+                
                 // p5 lee la prop 'direction' en cada frame
                 if (direction === 'up') rotX -= 2;
                 if (direction === 'down') rotX += 2;
@@ -84,19 +96,20 @@
 
                 p.orbitControl(2, 2, 2);
 
-                if (drone) {
+                if (shownModel) {
                     p.push();
                     p.noStroke(); // Prevents wireframe-style lines
                     p.translate(0, 0, 0); // alinear al medio
                     
-                    // Aplicamos la rotacion manual
+                    p.scale(zoomLevel);
+                    // en p5 los obj requieren un giro en X de 180 para estar de frente.
+                    p.rotateX(180); // for some reason obj turns 180 when changed
+            
+                    // Ahora aplicas las rotaciones que el usuario controla
                     p.rotateX(rotX);
                     p.rotateY(rotY);
-                    p.rotate(180); // enderezar
 
-                    p.scale(zoomLevel);
-
-                    p.model(drone);
+                    p.model(shownModel);
                     p.pop();
 
                     if(!isFirstFrameReady) {

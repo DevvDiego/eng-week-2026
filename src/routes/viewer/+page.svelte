@@ -1,8 +1,18 @@
 <script lang="ts">
     import { resolve } from '$app/paths';
     import Sketch from '$lib/components/sketch.svelte';
+    
+    function changeModel(e: any){
+        if (e.target.checked){
+          selectedModel = "two"
+          return
+        }
+        
+        selectedModel = "one"
+    }
 
     let bg = "#262626";
+    let selectedModel: "one"|"two" = $state("one");
     let direction: null|"up"|"down"|"left"|"right" = $state(null);
     let zoom: null|"in"|"out" = $state(null);
 </script>
@@ -51,6 +61,11 @@
                     class="w-10 h-10 sm:w-14 sm:h-14 bg-white/5 border border-white/10 rounded-xl"
                 >-</button>
             </div>
+            
+            <div>
+                <label for="">Change model</label>
+                <input type="checkbox" onchange={(e)=>changeModel(e)} >
+            </div>
         </div>
 
 
@@ -72,7 +87,7 @@
 
     <section class="relative grow h-full bg-[#1a1a1a]">
         <div class="absolute inset-0 w-full h-full">
-            <Sketch {bg} {direction} {zoom} />
+            <Sketch {selectedModel} {bg} {direction} {zoom} />
         </div>
         
         <div class="absolute bottom-6 right-6 pointer-events-none border-r-2 border-b-2 border-blue-500/30 w-12 h-12"></div>
