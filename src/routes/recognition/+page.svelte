@@ -52,12 +52,7 @@
                     
                     <div class="flex justify-between items-baseline border-b border-black/5 pb-2">
                         <span class="w-1/2 text-xs font-bold">Ing. Elizabeth Guadarrama Contreras</span>
-                        <span class="w-1/2 text-[9px] text-right opacity-50">#######</span>
-                    </div>
-                    
-                    <div class="flex justify-between items-baseline border-b border-black/5 pb-2">
-                        <span class="w-1/2 text-xs font-bold">Ing. #####</span>
-                        <span class="w-1/2 text-[9px] text-right opacity-50">#####</span>
+                        <span class="w-1/2 text-[9px] text-right opacity-50">Mentoria técnica</span>
                     </div>
                     
                     <p class="text-sm normal-case opacity-80 pt-6 leading-snug italic">
