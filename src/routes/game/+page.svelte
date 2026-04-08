@@ -23,10 +23,10 @@
                     Juego en Roblox
                 </h2>
                 <p class="text-xs md:text-sm leading-relaxed tracking-widest opacity-90 font-medium">                    
-                    Este juego fue creado para fomentar el buen trabajo en equipo, comunicación efectiva
-                    y confianza mutua.<br><br>Ofrece una experiencia interactiva de dos jugadores en la cual se busca
-                    reunir pistas que ofrecen detalles del proyecto. Un jugador se encarga de controlar el drone
-                    mientras el otro jugador reune las pistas.
+                    Este juego fue creado para fomentar la comunicación efectiva, el trabajo en equipo 
+                    y la confianza mutua.<br><br>Ofrece una experiencia interactiva para dos jugadores en la cual se busca 
+                    reunir pistas que brindan detalles del proyecto. Un jugador se encarga de controlar el dron 
+                    mientras el otro reúne las pistas.
                 </p>
             </div>
         </div>
