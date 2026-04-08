@@ -106,9 +106,11 @@
         </div>
 
         <div class="relative border-b border-black/10 md:border-b-0 md:border-r p-10 md:pt-16">
+            <div class="mb-6">
+                <img src="/drone-green-bg.png" class="w-32 md:w-40 rotate-6 shadow-lg" alt="Un Drone volando frente una pared de ladrillos">
+            </div>
             <span class="block text-xl md:text-2xl font-bold">
                 0.2
-
             </span>
             <p class="text-xs md:text-sm font-bold leading-tight uppercase">
                 PROTOTIPADO<br/>ELECTRÓNICO
@@ -116,6 +118,9 @@
         </div>
 
         <div class="relative border-r border-black/10 p-10 pt-16 md:pt-48">
+            <div class="mb-6">
+                <img src="/drone2-tools.png" class="w-32 md:w-40 -rotate-6 shadow-lg" alt="Un Drone volando frente una pared de ladrillos">
+            </div>
             <span class="block text-xl md:text-2xl font-bold">
                 0.3
             </span>
