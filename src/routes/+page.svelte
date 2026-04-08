@@ -22,7 +22,7 @@
         </Navbar>
 
         <div class="flex justify-between items-center w-full">
-            <span class="text-sm font-bold tracking-wide">PROYECTO INTEGRADOR 2026</span>
+            <span class="text-sm font-bold tracking-wide">PROYECTO FIN DE CURSO 2026</span>
             <p class="text-[10px] md:text-xs  leading-tight text-right tracking-widest opacity-80">
                 SISTEMAS<br/>ELECTRÓNICA<br/>Y DISEÑO
             </p>
@@ -518,7 +518,7 @@
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
         
         <div class="text-sm md:text-base font-extrabold tracking-[0.3em]">
-            PROYECTO DE FIN DE CARRERA 2026
+            PROYECTO DE FIN DE CURSO 2026
         </div>
 
         <nav class="flex flex-wrap gap-x-6 gap-y-2 text-[10px] md:text-xs font-bold tracking-[0.2em] opacity-80">
